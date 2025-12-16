@@ -23,7 +23,6 @@ const DetailsPanel: React.FC<DetailsPanelProps> = ({
 
   const renderRecipeDetails = (details: string) => {
     if (details.includes("Proportions")) {
-      // Parse cocktail proportions
       const cleanText = details.replace("Proportions :", "").trim();
       const items = cleanText.split(',').map(s => s.trim());
       return (
@@ -41,13 +40,47 @@ const DetailsPanel: React.FC<DetailsPanelProps> = ({
   };
 
   return (
-    <div className="absolute top-36 right-6 w-80 max-h-[calc(100vh-180px)] overflow-y-auto custom-scroll z-20 pointer-events-none pb-6">
-      <div className="bg-slate-900/95 backdrop-blur-xl rounded-2xl p-6 shadow-2xl border border-slate-700/50 pointer-events-auto transform transition-all duration-500 ease-out hover:border-slate-600">
+    // Container Responsive : 
+    // Desktop (md+) : Absolute Top Right
+    // Mobile : Absolute Bottom, Full Width (Bottom Sheet style)
+    <div className="
+      absolute 
+      z-20 
+      pointer-events-none 
+      
+      /* Mobile styles */
+      bottom-0 left-0 right-0 
+      w-full 
+      h-[45vh] 
+      flex flex-col justify-end
+      
+      /* Desktop styles */
+      md:top-36 md:right-6 md:bottom-auto md:left-auto 
+      md:w-80 md:h-auto md:max-h-[calc(100vh-180px)] 
+      md:pb-6
+    ">
+      <div className="
+        bg-slate-900/95 backdrop-blur-xl 
+        shadow-[0_-10px_40px_-10px_rgba(0,0,0,0.5)] md:shadow-2xl 
+        border-t md:border border-slate-700/50 
+        pointer-events-auto 
+        transition-all duration-500 ease-out 
         
+        /* Mobile Specifics */
+        h-full overflow-y-auto custom-scroll
+        rounded-t-2xl md:rounded-2xl
+        p-5 md:p-6
+      ">
+        
+        {/* Mobile Drag Handle Indicator */}
+        <div className="md:hidden flex justify-center mb-3">
+          <div className="w-12 h-1 bg-slate-700 rounded-full"></div>
+        </div>
+
         {/* Header */}
         <div className="mb-4 pb-3 border-b border-slate-700/50">
            <div className="flex justify-between items-start gap-2">
-             <h2 className="text-3xl font-bold text-white mb-1 tracking-tight leading-none break-words">
+             <h2 className="text-2xl md:text-3xl font-bold text-white mb-1 tracking-tight leading-none break-words">
                {displayName}
              </h2>
              {ingredient?.type && (
@@ -73,13 +106,13 @@ const DetailsPanel: React.FC<DetailsPanelProps> = ({
 
         {/* Content */}
         {ingredient ? (
-          <div className="space-y-5">
+          <div className="space-y-5 pb-8 md:pb-0">
             
             {/* Profil Sensoriel Tags */}
             <div>
               <div className="flex flex-wrap gap-1.5 mt-1">
                 {ingredient.profil_sensoriel.split('/').map((tag, i) => (
-                  <span key={i} className="px-2 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-[10px] text-slate-300 font-medium">
+                  <span key={i} className="px-2 py-0.5 rounded-full bg-slate-800 border border-slate-700 text-[10px] text-slate-300 font-medium whitespace-nowrap">
                     {tag.trim()}
                   </span>
                 ))}
@@ -95,23 +128,6 @@ const DetailsPanel: React.FC<DetailsPanelProps> = ({
                 <span className="font-semibold text-slate-400">Info : </span>
                 {ingredient.info_technique}
               </p>
-            </div>
-
-            {/* Stats Pills */}
-            <div className="grid grid-cols-5 gap-1">
-               {/* Tiny stats bar */}
-               <div className="col-span-1 h-1 bg-emerald-500 rounded-l-full opacity-80" style={{width: '100%'}}></div>
-               <div className="col-span-1 h-1 bg-pink-500 opacity-80" style={{width: '100%'}}></div>
-               <div className="col-span-1 h-1 bg-red-800 opacity-80" style={{width: '100%'}}></div>
-               <div className="col-span-1 h-1 bg-orange-500 opacity-80" style={{width: '100%'}}></div>
-               <div className="col-span-1 h-1 bg-yellow-500 rounded-r-full opacity-80" style={{width: '100%'}}></div>
-               
-               {/* Numbers below */}
-               <div className="text-center text-[10px] text-slate-500">{ingredient.associations.sale.length}</div>
-               <div className="text-center text-[10px] text-slate-500">{ingredient.associations.sucre.length}</div>
-               <div className="text-center text-[10px] text-slate-500">{ingredient.associations.vin.length}</div>
-               <div className="text-center text-[10px] text-slate-500">{ingredient.associations.mixologie.length}</div>
-               <div className="text-center text-[10px] text-slate-500">{ingredient.associations.biere_cidre.length}</div>
             </div>
 
             {/* Recipe Card */}
