@@ -1,1 +1,3270 @@
-[]
+[
+  {
+    "nom": "Abricot",
+    "type": "Fruit",
+    "famille_saveur": "Fruité à noyau",
+    "description": "Fruit d'été velouté, équilibre parfait entre sucre et acidité acidulée.",
+    "profil_sensoriel": "Acide / Sucré / Floral",
+    "info_technique": "Saison : Juin à Août (Variété : Rouge du Roussillon)",
+    "associations": {
+      "sale": ["Agneau", "Canard", "Romarin", "Amande fraîche", "Foie gras", "Chèvre frais"],
+      "sucre": ["Lavande", "Miel de thym", "Nougat", "Pistache", "Vanille"],
+      "vin": ["Muscat de Beaumes-de-Venise", "Condrieu (Viognier)", "Jurançon"],
+      "mixologie": ["Amaretto Sour", "Bellini (Purée)", "Abricot Brandy"],
+      "biere_cidre": ["Bière Blanche (Blé)", "Sour Ale", "Cidre doux"]
+    },
+    "recette_data": {
+      "titre": "Tarte fine abricot-romarin",
+      "details": "Rôtir les abricots avec du miel et quelques brins de romarin frais."
+    }
+  },
+  {
+    "nom": "Agneau",
+    "type": "Viande",
+    "famille_saveur": "Carné / Animal",
+    "description": "Viande jeune à la saveur marquée, supportant les aromates puissants.",
+    "profil_sensoriel": "Umami / Gras / Gibier léger",
+    "info_technique": "Meilleur morceau : Gigot ou Carré (Pré Salé)",
+    "associations": {
+      "sale": ["Ail", "Thym", "Aubergine", "Haricot blanc", "Anchois", "Abricot (Tajine)"],
+      "sucre": ["Miel", "Pruneau", "Figue", "Menthe (Gelée)"],
+      "vin": ["Pauillac", "Côte-Rôtie", "Bandol Rouge"],
+      "mixologie": ["Bloody Mary (Epicé)", "Red Snapper"],
+      "biere_cidre": ["IPA", "Brown Ale", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Gigot de 7 heures",
+      "details": "Cuisson lente à basse température avec ail en chemise et thym."
+    }
+  },
+  {
+    "nom": "Ail",
+    "type": "Condiment",
+    "famille_saveur": "Sulfuré / Piquant",
+    "description": "Le pilier de la cuisine, piquant cru et confit doux une fois cuit.",
+    "profil_sensoriel": "Piquant / Umami / Sucré (cuit)",
+    "info_technique": "Variété : Ail Rose de Lautrec ou Ail Noir (fermenté)",
+    "associations": {
+      "sale": ["Tomate", "Agneau", "Poulet", "Persil", "Huile d'olive", "Crevette"],
+      "sucre": ["Miel (Ail noir)", "Chocolat (Ail noir - audacieux)"],
+      "vin": ["Rosé de Provence", "Syrah (si plat épicé)"],
+      "mixologie": ["Bloody Mary", "Gibson (Oignon/Ail)"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Poulet aux 40 gousses d'ail",
+      "details": "L'ail confit dans le jus devient une purée douce à tartiner."
+    }
+  },
+  {
+    "nom": "Airelle",
+    "type": "Fruit",
+    "famille_saveur": "Acidulé / Floral",
+    "description": "Petite baie rouge très acide, souvent consommée en confiture ou sauce aigre-douce.",
+    "profil_sensoriel": "Acide / Amer / Fruité",
+    "info_technique": "Utilisation : Sauce pour gibier ou volaille (USA, Scandinavie).",
+    "associations": {
+      "sale": ["Gibier (Chevreuil)", "Dinde", "Porc", "Sauge"],
+      "sucre": ["Vanille", "Pomme", "Miel", "Chocolat blanc"],
+      "vin": ["Pinot Noir (Léger)", "Vins moelleux de Loire"],
+      "mixologie": ["Vodka", "Cranberry juice (substitut)"],
+      "biere_cidre": ["Porter", "Cidre Brut"]
+    },
+    "recette_data": {
+      "titre": "Sauce aux airelles",
+      "details": "Cuisson lente avec sucre et un peu d'eau jusqu'à éclatement des baies."
+    }
+  },
+  {
+    "nom": "Amande",
+    "type": "Fruit à coque",
+    "famille_saveur": "Torréfié / Doux",
+    "description": "Fruit sec polyvalent, apportant croquant et douceur lactée.",
+    "profil_sensoriel": "Gras / Doux / Boisé",
+    "info_technique": "Formes : Poudre, Effilée, Entière, Lait",
+    "associations": {
+      "sale": ["Truite", "Pigeon", "Chou-fleur", "Haricot vert", "Safran"],
+      "sucre": ["Abricot", "Poire", "Chocolat", "Miel", "Fleur d'oranger"],
+      "vin": ["Champagne", "Vin Jaune", "Amaretto"],
+      "mixologie": ["Mai Tai (Orgeat)", "Godfather"],
+      "biere_cidre": ["Stout", "Barley Wine"]
+    },
+    "recette_data": {
+      "titre": "Financiers aux amandes",
+      "details": "Beurre noisette et poudre d'amande pour un goût intense."
+    }
+  },
+  {
+    "nom": "Ananas",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Tropical",
+    "description": "Explosion exotique, très sucré avec une pointe d'acidité.",
+    "profil_sensoriel": "Sucré / Acide / Fruité",
+    "info_technique": "Variété : Victoria (La Réunion) - plus petit et parfumé",
+    "associations": {
+      "sale": ["Porc (Aigre-doux)", "Poulet", "Curry", "Jambon", "Crevette"],
+      "sucre": ["Coco", "Vanille", "Rhum", "Basilic", "Citron vert"],
+      "vin": ["Gewurztraminer Vendanges Tardives", "Jurançon"],
+      "mixologie": ["Piña Colada", "Mai Tai", "Daiquiri Ananas"],
+      "biere_cidre": ["IPA (notes tropicales)", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Ananas rôti au Rhum",
+      "details": "Caraméliser à la poêle avec beurre, sucre roux et vanille."
+    }
+  },
+  {
+    "nom": "Aneth",
+    "type": "Herbe",
+    "famille_saveur": "Anisé / Citronné",
+    "description": "Herbe fine aux arômes frais, indissociable des poissons nordiques.",
+    "profil_sensoriel": "Herbacé / Anisé / Frais",
+    "info_technique": "Utilisation : Frais en finition (ne pas cuire)",
+    "associations": {
+      "sale": ["Saumon", "Concombre", "Pomme de terre", "Crème fraîche", "Oeuf"],
+      "sucre": ["Citron", "Pomme verte (sorbet)"],
+      "vin": ["Riesling", "Muscadet", "Sauvignon Blanc"],
+      "mixologie": ["Gin Tonic (concombre/aneth)", "Aquavit"],
+      "biere_cidre": ["Saison", "Witbier"]
+    },
+    "recette_data": {
+      "titre": "Gravlax de Saumon",
+      "details": "Marinade 24h au sel, sucre, poivre et beaucoup d'aneth fraîche."
+    }
+  },
+  {
+    "nom": "Anis",
+    "type": "Épice",
+    "famille_saveur": "Anisé",
+    "description": "Graine aromatique très puissante, souvent confondue avec la badiane (anis étoilé).",
+    "profil_sensoriel": "Anisé / Réglisse / Piquant",
+    "info_technique": "Forme : Graine entière ou poudre.",
+    "associations": {
+      "sale": ["Porc", "Fenouil", "Pains", "Carotte", "Poissons gras"],
+      "sucre": ["Figue", "Poire", "Miel", "Orange"],
+      "vin": ["Pastis (Spiritueux)", "Vin Chaud"],
+      "mixologie": ["Absinthe", "Ouzo", "Anisette"],
+      "biere_cidre": ["Bière de Noël (épicée)"]
+    },
+    "recette_data": {
+      "titre": "Pain d'épices traditionnel",
+      "details": "Mélange de miel, farine de seigle, cannelle, girofle et anis."
+    }
+  },
+  {
+    "nom": "Artichaut",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Amer",
+    "description": "Légume fleur au cœur tendre, connu pour son amertume délicate.",
+    "profil_sensoriel": "Amer / Sucré (arrière-goût) / Métallique",
+    "info_technique": "Saison : Printemps (Poivrade) ou Été (Camus)",
+    "associations": {
+      "sale": ["Vinaigrette", "Citron", "Parmesan", "Truffe", "Jambon cru"],
+      "sucre": ["Orange (dans une salade)", "Miel (vinaigrette)"],
+      "vin": ["Vin blanc sec très vif (Gros Plant)", "Fino Sherry (Xérès)"],
+      "mixologie": ["Cynar (Liqueur d'artichaut)", "Negroni"],
+      "biere_cidre": ["Cidre Brut", "IPA (amertume sur amertume)"]
+    },
+    "recette_data": {
+      "titre": "Artichauts à la Barigoule",
+      "details": "Mijotés au vin blanc, lardons, oignons et carottes."
+    }
+  },
+  {
+    "nom": "Asperge",
+    "type": "Légume",
+    "famille_saveur": "Sulfuré / Vert",
+    "description": "Pousse printanière délicate, blanche (douce) ou verte (végétale).",
+    "profil_sensoriel": "Amer / Umami / Herbacé",
+    "info_technique": "Saison : Avril à Juin. Cuisson al dente.",
+    "associations": {
+      "sale": ["Oeuf (Mimosa/Mollet)", "Parmesan", "Sauce Mousseline", "Morille", "Jambon"],
+      "sucre": ["Orange (Sauce maltaise)", "Fraise (Salade audacieuse)"],
+      "vin": ["Muscat sec (Alsace)", "Condrieu", "Sauvignon Blanc"],
+      "mixologie": ["Bloody Mary Vert", "Martini Dry"],
+      "biere_cidre": ["Saison", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Asperges vertes et sauce Mousseline",
+      "details": "Servir tièdes avec une mayonnaise allégée au blanc d'œuf monté."
+    }
+  },
+  {
+    "nom": "Aubergine",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Épicé",
+    "description": "Légume méditerranéen spongieux, adorant l'huile et la cuisson longue.",
+    "profil_sensoriel": "Doux / Terreux / Amer (peau)",
+    "info_technique": "Conseil : Dégorger la peau au sel ou rôtir pour éviter l'éponge.",
+    "associations": {
+      "sale": ["Tomate", "Ail", "Basilic", "Feta", "Curry", "Agneau"],
+      "sucre": ["Miel", "Pignons", "Raisins secs (Caponata)"],
+      "vin": ["Rosé de Provence", "Syrah (Rhône)", "Chianti"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Lager", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Caviar d'aubergine (Baba Ganoush)",
+      "details": "Pulpe fumée au four, ail, sésame (tahini) et citron."
+    }
+  },
+  {
+    "nom": "Avocat",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Crémeux",
+    "description": "Fruit riche en gras végétal, texture de beurre.",
+    "profil_sensoriel": "Gras / Noisette / Doux",
+    "info_technique": "Variété : Hass (peau noire granuleuse) est la plus crémeuse.",
+    "associations": {
+      "sale": ["Crevette", "Pamplemousse", "Crabe", "Piment", "Coriandre"],
+      "sucre": ["Chocolat (Mousse vegan)", "Pistache", "Miel"],
+      "vin": ["Chablis", "Champagne", "Sancerre"],
+      "mixologie": ["Margarita (Avocado)", "Mezcal"],
+      "biere_cidre": ["Bière Blanche", "Mexican Lager"]
+    },
+    "recette_data": {
+      "titre": "Guacamole Authentique",
+      "details": "Écrasé grossièrement, citron vert, coriandre, oignon rouge, sel."
+    }
+  },
+  {
+    "nom": "Badiane",
+    "type": "Épice",
+    "famille_saveur": "Anisé",
+    "description": "L'anis étoilé, épice clé des bouillons asiatiques et du vin chaud.",
+    "profil_sensoriel": "Anisé / Réglisse / Sucré",
+    "info_technique": "Utilisation : Entière en infusion, retirée avant service.",
+    "associations": {
+      "sale": ["Canard", "Porc", "Bouillon (Pho)", "Poisson", "Citrouille"],
+      "sucre": ["Poire", "Orange", "Figue", "Rhubarbe"],
+      "vin": ["Vin Chaud", "Riesling"],
+      "mixologie": ["Pastis", "Sazerac (Absinthe)", "Galliano"],
+      "biere_cidre": ["Bière de Noël", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Poires pochées aux épices",
+      "details": "Sirop léger avec badiane, cannelle et zeste d'orange."
+    }
+  },
+  {
+    "nom": "Banane",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Crémeux",
+    "description": "Fruit énergétique à la texture fondante et au goût régressif.",
+    "profil_sensoriel": "Sucré / Crémeux / Amylacé",
+    "info_technique": "Mûrissement : Taches brunes = sucre maximum.",
+    "associations": {
+      "sale": ["Curry", "Poulet", "Lard (Roulé)", "Cumin"],
+      "sucre": ["Chocolat", "Rhum", "Noix", "Caramel", "Coco"],
+      "vin": ["Muscat", "Rhum Vieux (Spiritueux)"],
+      "mixologie": ["Daiquiri Banane", "Mai Tai", "Liqueur de Banane"],
+      "biere_cidre": ["Hefeweizen (goût banane naturel)", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Banana Bread aux noix",
+      "details": "Utiliser des bananes très mûres pour éviter d'ajouter trop de sucre."
+    }
+  },
+  {
+    "nom": "Basilic",
+    "type": "Herbe",
+    "famille_saveur": "Anisé / Poivré",
+    "description": "L'herbe royale de l'été, fragile et très aromatique.",
+    "profil_sensoriel": "Poivré / Clou de girofle / Mentholé",
+    "info_technique": "Variété : Grand Vert (Gênes) ou Thaï (plus épicé).",
+    "associations": {
+      "sale": ["Tomate", "Mozzarella", "Ail", "Huile d'olive", "Poulet", "Aubergine"],
+      "sucre": ["Fraise", "Citron", "Framboise", "Pêche", "Ananas"],
+      "vin": ["Rosé de Provence", "Sauvignon Blanc"],
+      "mixologie": ["Gin Basil Smash", "Mojito Basilic"],
+      "biere_cidre": ["Saison", "Bière Blanche au citron"]
+    },
+    "recette_data": {
+      "titre": "Pesto Genovese",
+      "details": "Piler au mortier : basilic, pignons, parmesan, ail et huile d'olive."
+    }
+  },
+  {
+    "nom": "Betterave",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Sucré",
+    "description": "Racine au goût de terre caractéristique et très sucrée.",
+    "profil_sensoriel": "Terreux / Sucré / Métallique",
+    "info_technique": "Cuisson : Rôtie au four (plus de goût) ou vapeur.",
+    "associations": {
+      "sale": ["Chèvre", "Hareng", "Noix", "Cumin", "Mâche", "Boeuf"],
+      "sucre": ["Chocolat noir", "Framboise", "Orange", "Pomme"],
+      "vin": ["Pinot Noir (Terreux)", "Cabernet Franc"],
+      "mixologie": ["Bloody Mary Betterave", "Gin Tonic terreux"],
+      "biere_cidre": ["Brown Ale", "Porter"]
+    },
+    "recette_data": {
+      "titre": "Carpaccio de betterave et chèvre",
+      "details": "Tranches fines marinées, noix concassées et miettes de chèvre frais."
+    }
+  },
+  {
+    "nom": "Bœuf",
+    "type": "Viande",
+    "famille_saveur": "Carné / Rôti",
+    "description": "Viande rouge par excellence, riche en fer et en goût.",
+    "profil_sensoriel": "Umami / Sanglant / Gras",
+    "info_technique": "Race : Charolaise, Limousine, Aubrac.",
+    "associations": {
+      "sale": ["Carotte", "Oignon", "Poivre", "Champignon", "Thym", "Béarnaise"],
+      "sucre": ["Chocolat noir (Sauce)", "Café (Rub)"],
+      "vin": ["Gevrey-Chambertin", "Côte-Rôtie", "St-Estèphe", "Cahors"],
+      "mixologie": ["Old Fashioned", "Manhattan", "Whisky Sour"],
+      "biere_cidre": ["Stout", "Bière Brune", "Amber Ale"]
+    },
+    "recette_data": {
+      "titre": "Bœuf Bourguignon",
+      "details": "Mariner la viande 24h dans le vin rouge avant de mijoter."
+    }
+  },
+  {
+    "nom": "Boudin Noir",
+    "type": "Charcuterie",
+    "famille_saveur": "Carné / Ferreux",
+    "description": "Charcuterie ancienne à base de sang, texture fondante et goût ferreux marqué.",
+    "profil_sensoriel": "Métallique / Gras / Épicé",
+    "info_technique": "Accord classique : Le sucre (pomme/oignon) est nécessaire pour l'équilibre.",
+    "associations": {
+      "sale": ["Pomme de terre", "Oignon confit", "Coquille Saint-Jacques (Terre/Mer)", "Lentille"],
+      "sucre": ["Pomme (Compote)", "Poire", "Châtaigne", "Cannelle"],
+      "vin": ["Cidre Brut", "Chenin Blanc", "Beaujolais"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Cidre Fermier", "Brown Ale"]
+    },
+    "recette_data": {
+      "titre": "Parmentier de Boudin Noir",
+      "details": "Boudin émietté sous une purée de pommes de terre maison, servi avec salade."
+    }
+  },
+  {
+    "nom": "Brie",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Terroir",
+    "description": "Fromage à pâte molle et croûte fleurie, goût noisetté si bien affiné.",
+    "profil_sensoriel": "Crémeux / Lait / Sous-bois",
+    "info_technique": "Fromages similaires : Camembert, Coulommiers.",
+    "associations": {
+      "sale": ["Jambon cru", "Noix", "Champignon (farce)", "Oignon confit"],
+      "sucre": ["Miel", "Confiture de Cerise Noire", "Pomme", "Figue"],
+      "vin": ["Champagne Brut", "Bourgogne (Pinot Noir)", "Vin de Pays léger"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Cidre Brut", "Bière Ambrée"]
+    },
+    "recette_data": {
+      "titre": "Brie farci aux noix et miel",
+      "details": "Ouvrir le brie, garnir d'un mélange de noix et miel, passer au four."
+    }
+  },
+  {
+    "nom": "Brocoli",
+    "type": "Légume",
+    "famille_saveur": "Vert / Sulfuré",
+    "description": "Légume vert croquant, riche en vitamines et saveur soufrée à la cuisson.",
+    "profil_sensoriel": "Herbacé / Sulfuré / Amer",
+    "info_technique": "Conseil : Cuire brièvement à la vapeur pour garder le croquant et la couleur.",
+    "associations": {
+      "sale": ["Anchois", "Ail", "Piment", "Citron", "Noisette", "Cheddar (UK)"],
+      "sucre": ["Pomme verte", "Miel (pour glacer)"],
+      "vin": ["Sauvignon Blanc", "Pinot Grigio"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Lager", "IPA (très houblonnée)"]
+    },
+    "recette_data": {
+      "titre": "Brocoli rôti aux anchois et ail",
+      "details": "Rôtir au four avec huile d'olive, ail et pâte d'anchois jusqu'à caramélisation."
+    }
+  },
+  {
+    "nom": "Cabillaud",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Doux",
+    "description": "Poisson blanc à la chair effeuillable, neutre et délicat.",
+    "profil_sensoriel": "Doux / Fondant / Marin léger",
+    "info_technique": "Cuisson : Nacré à cœur. Dos de cabillaud (plus épais).",
+    "associations": {
+      "sale": ["Chorizo", "Aïoli", "Poireau", "Pomme de terre", "Fenouil"],
+      "sucre": ["Vanille (Sauce)", "Agrumes"],
+      "vin": ["Chablis", "Sauvignon Blanc", "Vinho Verde"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blanche", "Cidre Brut"]
+    },
+    "recette_data": {
+      "titre": "Dos de cabillaud en croûte de chorizo",
+      "details": "Le gras épicé du chorizo nourrit la chair maigre du poisson à la cuisson."
+    }
+  },
+  {
+    "nom": "Café",
+    "type": "Ingredient",
+    "famille_saveur": "Torréfié",
+    "description": "Graine torréfiée aux arômes complexes, du fruit à l'amer.",
+    "profil_sensoriel": "Amer / Acide / Grillé",
+    "info_technique": "Variété : Arabica (fin) ou Robusta (corsé).",
+    "associations": {
+      "sale": ["Bœuf", "Canard", "Chilli", "Champignon"],
+      "sucre": ["Chocolat", "Noisette", "Vanille", "Caramel", "Mascarpone"],
+      "vin": ["Porto", "Maury", "Banyuls"],
+      "mixologie": ["Espresso Martini", "Black Russian", "Irish Coffee"],
+      "biere_cidre": ["Coffee Stout", "Porter"]
+    },
+    "recette_data": {
+      "titre": "Tiramisu Classique",
+      "details": "Biscuit imbibé de café fort et Amaretto, crème mascarpone."
+    }
+  },
+  {
+    "nom": "Canard",
+    "type": "Viande",
+    "famille_saveur": "Carné / Gras",
+    "description": "Volaille à chair rouge et peau grasse, emblème du Sud-Ouest.",
+    "profil_sensoriel": "Gras / Riche / Gibier",
+    "info_technique": "Cuisson : Rosé impératif pour le magret.",
+    "associations": {
+      "sale": ["Navet", "Sarladaise", "Poivre vert", "Orange", "Gingembre"],
+      "sucre": ["Cerise", "Figue", "Miel", "Pêche", "Abricot"],
+      "vin": ["Madiran", "Cahors", "Pomerol", "Pinot Noir"],
+      "mixologie": ["Sidecar", "Cognac Summit"],
+      "biere_cidre": ["Kriek", "Dubbel Trappiste"]
+    },
+    "recette_data": {
+      "titre": "Magret de canard aux cerises",
+      "details": "Sauce déglacée au vinaigre de framboise et griottes entières."
+    }
+  },
+  {
+    "nom": "Cannelle",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Doux",
+    "description": "Écorce intérieure d'un arbre, chaleureuse et boisée.",
+    "profil_sensoriel": "Chaud / Boisé / Sucré",
+    "info_technique": "Variété : Ceylan (vraie cannelle) est plus fine que la Casse.",
+    "associations": {
+      "sale": ["Agneau (Moussaka/Tajine)", "Courge", "Poulet", "Porc"],
+      "sucre": ["Pomme", "Poire", "Chocolat", "Orange", "Banane"],
+      "vin": ["Vin Chaud", "Porto"],
+      "mixologie": ["Rhum épicé", "Hot Toddy", "Sangria"],
+      "biere_cidre": ["Pumpkin Ale", "Bière de Noël"]
+    },
+    "recette_data": {
+      "titre": "Tarte aux pommes à l'alsacienne",
+      "details": "Appareil flan (œufs, crème, sucre, cannelle) versé sur les pommes."
+    }
+  },
+  {
+    "nom": "Câpre",
+    "type": "Condiment",
+    "famille_saveur": "Acide / Salé",
+    "description": "Bouton floral mariné dans le vinaigre et le sel, apportant acidité et peps.",
+    "profil_sensoriel": "Acide / Salé / Piquant",
+    "info_technique": "Forme : Câpres (petites) ou Câprons (gros fruits).",
+    "associations": {
+      "sale": ["Saumon", "Thon (Vitello Tonato)", "Veau", "Persil", "Citron", "Olives"],
+      "sucre": ["N/A"],
+      "vin": ["Muscadet", "Vin blanc sec et vif"],
+      "mixologie": ["Dirty Martini (Olive/Saumure)"],
+      "biere_cidre": ["Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Sauce Gribiche",
+      "details": "Émulsion mayonnaise-moutarde, herbes hachées (câpres, persil, estragon, cornichons)."
+    }
+  },
+  {
+    "nom": "Cardamome",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Floral",
+    "description": "Graine aromatique puissante et citronnée, utilisée surtout dans le nord de l'Europe et l'Asie.",
+    "profil_sensoriel": "Frais / Camphré / Citronné",
+    "info_technique": "Utilisation : Gousse verte (la plus parfumée) ou en poudre (moins fine).",
+    "associations": {
+      "sale": ["Poulet", "Curry", "Riz", "Agneau"],
+      "sucre": ["Café", "Poire", "Orange", "Chocolat blanc"],
+      "vin": ["Riesling", "Gewurztraminer"],
+      "mixologie": ["Gin Tonic (infusion)", "Cocktail au Rhum"],
+      "biere_cidre": ["Bière de Noël", "Tripel"]
+    },
+    "recette_data": {
+      "titre": "Kardamummabullar (Brioches à la cardamome)",
+      "details": "Pâte à brioche suédoise très beurrée et roulée à la cardamome."
+    }
+  },
+  {
+    "nom": "Carotte",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Doux",
+    "description": "Racine populaire, crue croquante ou cuite fondante.",
+    "profil_sensoriel": "Sucré / Terreux / Croquant",
+    "info_technique": "Saison : Toute l'année (Carottes nouvelles au printemps).",
+    "associations": {
+      "sale": ["Cumin", "Coriandre", "Orange", "Bœuf", "Petit pois"],
+      "sucre": ["Noix", "Cannelle", "Raisin sec", "Ananas"],
+      "vin": ["Chardonnay (rond)", "Chenin Blanc"],
+      "mixologie": ["Jus de carotte-Gingembre (Vodka)", "Bloody Mary"],
+      "biere_cidre": ["IPA", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Carrot Cake (Gâteau aux carottes)",
+      "details": "Gâteau moelleux aux épices douces et glaçage cream cheese."
+    }
+  },
+  {
+    "nom": "Cassis",
+    "type": "Fruit",
+    "famille_saveur": "Ronces & Baies",
+    "description": "Petite baie noire très tannique et acide.",
+    "profil_sensoriel": "Acide / Tannique / Floral",
+    "info_technique": "Utilisation : Rarement cru, surtout en coulis, gelée ou liqueur.",
+    "associations": {
+      "sale": ["Gibier (Sanglier/Biche)", "Canard", "Foie gras"],
+      "sucre": ["Poire", "Chocolat noir", "Marron", "Amande"],
+      "vin": ["Vin rouge tannique", "Banyuls"],
+      "mixologie": ["Kir (Vin blanc)", "Kir Royal (Champagne)", "El Diablo (Tequila)"],
+      "biere_cidre": ["Sour Ale", "Bière fruitée"]
+    },
+    "recette_data": {
+      "titre": "Poire Belle-Hélène revisitée",
+      "details": "Poire pochée, sauce chocolat et coulis de cassis pour l'acidité."
+    }
+  },
+  {
+    "nom": "Céleri-rave",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Anisé",
+    "description": "Racine bosselée à la chair blanche, goût rustique entre le persil et la terre.",
+    "profil_sensoriel": "Terreux / Anisé / Crémeux (cuit)",
+    "info_technique": "Utilisation : Purée (mousseline) ou cru (Rémoulade).",
+    "associations": {
+      "sale": ["Pomme", "Moutarde", "Truffe", "Noix", "Canard"],
+      "sucre": ["Pomme", "Vanille (Purée)", "Chocolat blanc (Audacieux)"],
+      "vin": ["Chardonnay (Bourgogne)", "Vin Jaune"],
+      "mixologie": ["Bloody Mary (Sel de céleri)"],
+      "biere_cidre": ["Bière Ambrée", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Mousseline Céleri-Vanille",
+      "details": "Cuire le céleri dans du lait infusé à la vanille, mixer finement."
+    }
+  },
+  {
+    "nom": "Cerise",
+    "type": "Fruit",
+    "famille_saveur": "Fruité à noyau",
+    "description": "Fruit rouge charnu, de la griotte acide à la burlat sucrée.",
+    "profil_sensoriel": "Sucré / Acide / Amande (noyau)",
+    "info_technique": "Saison : Fin Mai à Juillet.",
+    "associations": {
+      "sale": ["Canard", "Gibier", "Foie gras", "Pigeon"],
+      "sucre": ["Amande", "Chocolat noir", "Pistache", "Kirsch", "Vanille"],
+      "vin": ["Maury (Grenat)", "Banyuls", "Pinot Noir"],
+      "mixologie": ["Manhattan (Garniture)", "Singapore Sling", "Whisky"],
+      "biere_cidre": ["Kriek (Lambic)", "Bière rouge"]
+    },
+    "recette_data": {
+      "titre": "Clafoutis aux cerises",
+      "details": "Laisser les noyaux pour plus de goût (arôme d'amande)."
+    }
+  },
+  {
+    "nom": "Champignon",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Umami",
+    "description": "Le règne fungi, apportant texture et goût de sous-bois.",
+    "profil_sensoriel": "Umami / Terreux / Boisé",
+    "info_technique": "Variété : Paris (neutre), Cèpe (boisé), Morille (raffiné).",
+    "associations": {
+      "sale": ["Ail", "Persil", "Crème", "Poulet", "Oeuf", "Risotto"],
+      "sucre": ["Chocolat (Cèpes - audacieux)", "Noisette"],
+      "vin": ["Pinot Noir", "Chardonnay (boisé)", "Merlot"],
+      "mixologie": ["Cocktail au Whisky infusé", "Bloody Mary"],
+      "biere_cidre": ["Brown Ale", "Bière de Garde"]
+    },
+    "recette_data": {
+      "titre": "Risotto aux Cèpes",
+      "details": "Riz Arborio, bouillon de champignons séchés, parmesan et vin blanc."
+    }
+  },
+  {
+    "nom": "Châtaigne",
+    "type": "Fruit à coque",
+    "famille_saveur": "Terreux / Doux",
+    "description": "Fruit d'automne, texture farineuse et saveur douce et terreuse.",
+    "profil_sensoriel": "Terreux / Doux / Farineux",
+    "info_technique": "Produit phare : Marron glacé ou Crème de marron (Ardèche).",
+    "associations": {
+      "sale": ["Dinde", "Poulet", "Cèpe", "Chou de Bruxelles", "Lard"],
+      "sucre": ["Chocolat", "Crème", "Vanille", "Rhum"],
+      "vin": ["Vin Jaune", "Bourgogne Rouge (Chaud)", "Porto"],
+      "mixologie": ["Cognac", "Rhum vieux"],
+      "biere_cidre": ["Bière de Noël", "Bière Brune"]
+    },
+    "recette_data": {
+      "titre": "Purée de châtaigne aux cèpes",
+      "details": "Châtaignes cuites au bouillon de volaille et mixées avec de la crème fraîche."
+    }
+  },
+  {
+    "nom": "Chèvre (Fromage)",
+    "type": "Fromage",
+    "famille_saveur": "Caprin / Lactique",
+    "description": "Fromage au lait de chèvre, de frais à sec, goût typé et acidulé.",
+    "profil_sensoriel": "Acide / Lactique / Caprin",
+    "info_technique": "AOP : Crottin de Chavignol, Rocamadour, Sainte-Maure de Touraine.",
+    "associations": {
+      "sale": ["Miel", "Courgette", "Thym", "Noix", "Épinard", "Betterave"],
+      "sucre": ["Figue rôtie", "Abricot", "Poire", "Gelée de coing"],
+      "vin": ["Sancerre", "Pouilly-Fumé", "Menetou-Salon"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Cidre Brut", "Bière Blanche", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Toast de chèvre chaud au miel et thym",
+      "details": "Griller le fromage sous le grill jusqu'à coloration, arroser de miel."
+    }
+  },
+  {
+    "nom": "Chocolat Noir",
+    "type": "Sucré",
+    "famille_saveur": "Torréfié / Amer",
+    "description": "Fève de cacao transformée, complexe et intense.",
+    "profil_sensoriel": "Amer / Sucré / Fruité / Grillé",
+    "info_technique": "Qualité : Préférer le chocolat de couverture (>60%).",
+    "associations": {
+      "sale": ["Gibier (Lièvre)", "Piment", "Foie gras", "Sel"],
+      "sucre": ["Orange", "Framboise", "Menthe", "Poire", "Caramel"],
+      "vin": ["Maury", "Banyuls", "Porto", "Vin Jaune (Chocolat au lait)"],
+      "mixologie": ["Espresso Martini", "Rum Old Fashioned"],
+      "biere_cidre": ["Imperial Stout", "Porter"]
+    },
+    "recette_data": {
+      "titre": "Mousse au chocolat intense",
+      "details": "Juste des œufs et du chocolat, sans sucre ajouté ni crème."
+    }
+  },
+  {
+    "nom": "Chorizo",
+    "type": "Charcuterie",
+    "famille_saveur": "Piquant / Gras",
+    "description": "Saucisson ibérique au pimenton (paprika fumé), huileux et parfumé.",
+    "profil_sensoriel": "Piquant / Fumé / Gras",
+    "info_technique": "Variété : Doux (Dulce) ou Piquant (Picante).",
+    "associations": {
+      "sale": ["Cabillaud", "Saint-Jacques", "Poulet", "Pois chiche", "Oeuf"],
+      "sucre": ["Chocolat noir (Ganache)", "Datte"],
+      "vin": ["Rioja (Espagne)", "Syrah", "Rosé corsé"],
+      "mixologie": ["Bloody Mary", "Mezcal (Cocktail fumé)"],
+      "biere_cidre": ["IPA", "Lager espagnole"]
+    },
+    "recette_data": {
+      "titre": "Saint-Jacques snackées au Chorizo",
+      "details": "Piquer une rondelle de chorizo sur la noix avant de poêler : le gras sert de cuisson."
+    }
+  },
+  {
+    "nom": "Chou-fleur",
+    "type": "Légume",
+    "famille_saveur": "Sulfuré",
+    "description": "Inflorescence blanche, goût de noisette une fois rôtie.",
+    "profil_sensoriel": "Sulfuré / Noisette (rôti) / Doux",
+    "info_technique": "Cuisson : Rôti entier au four ou en semoule crue (taboulé).",
+    "associations": {
+      "sale": ["Curry", "Cumin", "Fromage (Gratin)", "Truffe", "Saumon"],
+      "sucre": ["Chocolat blanc (purée - audacieux)", "Vanille (Coquille St Jacques)"],
+      "vin": ["Chardonnay", "Chenin Blanc"],
+      "mixologie": ["Non courant"],
+      "biere_cidre": ["Blonde Ale", "Tripel"]
+    },
+    "recette_data": {
+      "titre": "Chou-fleur rôti entier",
+      "details": "Massé au beurre épicé (curry/paprika) et rôti 1h au four."
+    }
+  },
+  {
+    "nom": "Ciboule",
+    "type": "Condiment",
+    "famille_saveur": "Sulfuré / Vert",
+    "description": "Plante aromatique fine, moins forte que la ciboulette.",
+    "profil_sensoriel": "Piquant / Herbacé / Soufré",
+    "info_technique": "Utilisation : Ciseler les tiges pour la décoration et le goût.",
+    "associations": {
+      "sale": ["Oeuf (Omelette)", "Poisson", "Pomme de terre", "Crème fraîche", "Vinaigrette"],
+      "sucre": ["N/A"],
+      "vin": ["Vinho Verde", "Muscadet"],
+      "mixologie": ["Bloody Mary", "Gin Tonic"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Omelette aux fines herbes",
+      "details": "Mélanger avec estragon, cerfeuil et ciboulette, cuire rapidement."
+    }
+  },
+  {
+    "nom": "Citron",
+    "type": "Fruit",
+    "famille_saveur": "Agrume",
+    "description": "L'acidité indispensable en cuisine pour réveiller les plats.",
+    "profil_sensoriel": "Acide / Amère (zeste) / Floral",
+    "info_technique": "Variété : Citron de Menton IGP ou Citron Jaune standard.",
+    "associations": {
+      "sale": ["Poisson", "Poulet", "Huile d'olive", "Avocat", "Fruit de mer"],
+      "sucre": ["Meringue", "Sucre", "Basilic", "Pavot", "Framboise"],
+      "vin": ["Sauvignon Blanc", "Riesling", "Limoncello"],
+      "mixologie": ["Gin Tonic", "Whisky Sour", "Margarita", "French 75"],
+      "biere_cidre": ["Bière Blanche", "Radler (Panaché)"]
+    },
+    "recette_data": {
+      "titre": "Tarte au Citron Meringuée",
+      "details": "Crémeux citron très acide contrasté par une meringue italienne douce."
+    }
+  },
+  {
+    "nom": "Citron Vert (Lime)",
+    "type": "Fruit",
+    "famille_saveur": "Agrume / Acide",
+    "description": "Petit agrume tropical, plus acide, floral et amer que le citron jaune.",
+    "profil_sensoriel": "Acide / Floral / Zesté",
+    "info_technique": "Zeste : Très aromatique, essentiel en cuisine thaï et sud-américaine.",
+    "associations": {
+      "sale": ["Poisson cru", "Avocat", "Coriandre", "Piment", "Coco"],
+      "sucre": ["Coco", "Menthe", "Rhum", "Mangue", "Fraise"],
+      "vin": ["Riesling (Sec)", "Sauvignon Blanc"],
+      "mixologie": ["Mojito", "Margarita", "Caipirinha", "Daiquiri"],
+      "biere_cidre": ["Mexican Lager (Corona)", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Ceviche Classique",
+      "details": "Le poisson 'cuit' dans l'acidité du jus de lime (Leche de tigre)."
+    }
+  },
+  {
+    "nom": "Citronnelle",
+    "type": "Herbe",
+    "famille_saveur": "Agrume / Herbacé",
+    "description": "Tige asiatique au parfum citronné intense sans l'acidité du jus.",
+    "profil_sensoriel": "Citronné / Floral / Boisé",
+    "info_technique": "Utilisation : Infuser le bâton écrasé ou ciseler très fin le cœur tendre.",
+    "associations": {
+      "sale": ["Poulet", "Crevette", "Lait de coco", "Gingembre", "Porc"],
+      "sucre": ["Ananas", "Fraise", "Chocolat blanc", "Pêche"],
+      "vin": ["Gewurztraminer", "Riesling"],
+      "mixologie": ["Gin Tonic (Infusé)", "Mojito Asiatique"],
+      "biere_cidre": ["Witbier", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Brochettes de Poulet Citronnelle",
+      "details": "Mariner le poulet avec citronnelle, ail et soja avant de griller."
+    }
+  },
+  {
+    "nom": "Clémentine",
+    "type": "Fruit",
+    "famille_saveur": "Agrume",
+    "description": "Petit agrume sans pépins, peau fine et goût sucré-acidulé.",
+    "profil_sensoriel": "Sucré / Acidulé / Floral",
+    "info_technique": "Saison : Novembre à Janvier (Clémentine de Corse IGP).",
+    "associations": {
+      "sale": ["Canard", "Gibier", "Fenouil", "Saumon", "Cardamome"],
+      "sucre": ["Chocolat noir", "Cannelle", "Amande"],
+      "vin": ["Muscat", "Gewurztraminer (Floral)"],
+      "mixologie": ["Margarita (Twist)", "Gin Tonic"],
+      "biere_cidre": ["IPA aux agrumes", "Bière de Noël"]
+    },
+    "recette_data": {
+      "titre": "Canard à l'orange et clémentine",
+      "details": "Jus et zestes dans la sauce, quartiers rôtis en accompagnement."
+    }
+  },
+  {
+    "nom": "Comté",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Fruité",
+    "description": "Fromage de montagne au lait cru, palette aromatique infinie selon l'âge.",
+    "profil_sensoriel": "Salé / Noisette / Torréfié (Vieux)",
+    "info_technique": "Affinage : Jeune (Fruité/Lactique) vs Vieux (18+ mois, Cristaux/Torréfié).",
+    "associations": {
+      "sale": ["Noix", "Jambon Jaune (Jura)", "Asperge", "Poulet (Sauce)"],
+      "sucre": ["Abricot sec", "Curry", "Vanille", "Pomme"],
+      "vin": ["Vin Jaune (Accord régional)", "Chardonnay", "Champagne"],
+      "mixologie": ["Old Fashioned (Comté vieux)", "Sherry"],
+      "biere_cidre": ["Brown Ale", "Barley Wine"]
+    },
+    "recette_data": {
+      "titre": "Gougères au Comté",
+      "details": "Pâte à choux mélangée à beaucoup de comté râpé et noix de muscade."
+    }
+  },
+  {
+    "nom": "Concombre",
+    "type": "Légume",
+    "famille_saveur": "Vert / Aqueux",
+    "description": "Légume d'eau très frais, apportant du croquant.",
+    "profil_sensoriel": "Frais / Herbacé / Aqueux",
+    "info_technique": "Préparation : Dégorger au sel pour concentrer le goût.",
+    "associations": {
+      "sale": ["Menthe", "Yaourt (Tzatziki)", "Aneth", "Saumon", "Feta"],
+      "sucre": ["Melon", "Gin (Sorbet)", "Citron vert"],
+      "vin": ["Sauvignon Blanc", "Vinho Verde"],
+      "mixologie": ["Gin Tonic", "Moscow Mule", "Cucumber Martini"],
+      "biere_cidre": ["Saison", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Tzatziki Grec",
+      "details": "Yaourt grec, concombre râpé dégorgé, ail, menthe et huile d'olive."
+    }
+  },
+  {
+    "nom": "Coquille Saint-Jacques",
+    "type": "Coquillage",
+    "famille_saveur": "Marin / Doux",
+    "description": "Noix nacrée à la texture fine et au goût sucré.",
+    "profil_sensoriel": "Sucré / Noisette / Marin",
+    "info_technique": "Saison : Octobre à Mai (Pêche réglementée).",
+    "associations": {
+      "sale": ["Poireau", "Truffe", "Chou-fleur", "Beurre", "Lard"],
+      "sucre": ["Vanille", "Mangue", "Agrumes"],
+      "vin": ["Chablis 1er Cru", "Champagne", "Meursault"],
+      "mixologie": ["Gin (très sec)"],
+      "biere_cidre": ["Tripel", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "St-Jacques poêlées au beurre blanc",
+      "details": "Snacker 1 min par face, servir avec une fondue de poireaux."
+    }
+  },
+  {
+    "nom": "Coriandre",
+    "type": "Herbe",
+    "famille_saveur": "Agrume / Savonneux",
+    "description": "L'herbe clivante : on adore ou on déteste (génétique).",
+    "profil_sensoriel": "Citronné / Floral / Piquant (racine)",
+    "info_technique": "Utilisation : Feuilles (fraîcheur) ou Graines (agrumes/épices).",
+    "associations": {
+      "sale": ["Carotte", "Avocat", "Curry", "Crevette", "Porc"],
+      "sucre": ["Ananas", "Mangue", "Chocolat (Graines)"],
+      "vin": ["Gewurztraminer", "Sauvignon Blanc (Néo-zélandais)"],
+      "mixologie": ["Gin", "Margarita (infusion)", "Mojito Coriandre"],
+      "biere_cidre": ["Witbier (Hoegaarden utilise la graine)", "Gose"]
+    },
+    "recette_data": {
+      "titre": "Ceviche de Daurade",
+      "details": "Poisson cru cuit par le jus de citron vert, oignon rouge et coriandre."
+    }
+  },
+  {
+    "nom": "Courgette",
+    "type": "Légume",
+    "famille_saveur": "Vert / Doux",
+    "description": "Légume d'été gorgé d'eau, saveur douce, se mange cru ou cuit.",
+    "profil_sensoriel": "Doux / Herbacé / Aqueux",
+    "info_technique": "Fleur : La fleur de courgette farcie est un mets délicat.",
+    "associations": {
+      "sale": ["Chèvre", "Menthe", "Basilic", "Citron", "Ail", "Parmesan"],
+      "sucre": ["Chocolat (Gâteau moelleux - remplace le beurre)", "Citron"],
+      "vin": ["Rosé de Provence", "Vin blanc sec"],
+      "mixologie": ["Gin Tonic (Ruban de courgette)"],
+      "biere_cidre": ["Bière Blanche", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Gâteau Chocolat-Courgette",
+      "details": "La courgette râpée remplace le beurre pour un moelleux incroyable sans goût de légume."
+    }
+  },
+  {
+    "nom": "Crème fraîche",
+    "type": "Produit Laitier",
+    "famille_saveur": "Lactique / Gras",
+    "description": "Lait fermenté riche en matières grasses, essentiel pour la liaison des sauces.",
+    "profil_sensoriel": "Gras / Lactique / Acide (épaisse)",
+    "info_technique": "Type : Crème Fleurette (liquide) ou Crème Épaisse (fermentée).",
+    "associations": {
+      "sale": ["Champignon", "Poisson", "Vin blanc (Sauce)", "Ciboulette", "Curry"],
+      "sucre": ["Vanille", "Sucre (Chantilly)", "Fruits rouges"],
+      "vin": ["Vin blanc gras (Bourgogne)", "Champagne"],
+      "mixologie": ["Crème de Menthe"],
+      "biere_cidre": ["Non pertinent"]
+    },
+    "recette_data": {
+      "titre": "Sauce aux morilles et vin jaune",
+      "details": "Déglacer les morilles au vin jaune, réduire et lier à la crème épaisse."
+    }
+  },
+  {
+    "nom": "Cumin",
+    "type": "Épice",
+    "famille_saveur": "Terreux / Épicé",
+    "description": "Graine chaude et terreuse, base des currys et chilis.",
+    "profil_sensoriel": "Terreux / Amer / Chaud",
+    "info_technique": "Conseil : Torréfier les graines à sec avant de les piler.",
+    "associations": {
+      "sale": ["Carotte", "Agneau", "Chou-fleur", "Lentille", "Pois chiche"],
+      "sucre": ["Orange", "Citron"],
+      "vin": ["Syrah", "Grenache (Vins du soleil)"],
+      "mixologie": ["Margarita épicée", "Bloody Mary"],
+      "biere_cidre": ["IPA", "Brown Ale"]
+    },
+    "recette_data": {
+      "titre": "Houmous maison",
+      "details": "Pois chiches, tahini (sésame), ail, citron et beaucoup de cumin."
+    }
+  },
+  {
+    "nom": "Curcuma",
+    "type": "Épice",
+    "famille_saveur": "Terreux / Poivré",
+    "description": "Rhizome jaune vif, saveur terreuse et légèrement amère, cousin du gingembre.",
+    "profil_sensoriel": "Terreux / Amer / Chaud",
+    "info_technique": "Santé : Toujours associer au poivre noir pour l'assimilation.",
+    "associations": {
+      "sale": ["Chou-fleur", "Riz", "Lentille", "Poulet", "Pomme de terre"],
+      "sucre": ["Mangue (Lassi)", "Ananas", "Lait (Golden Latte)"],
+      "vin": ["Gewurztraminer"],
+      "mixologie": ["Cocktail Detox (Carotte/Curcuma)"],
+      "biere_cidre": ["IPA", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Chou-fleur rôti au Curcuma",
+      "details": "Fleurettes enrobées d'huile, curcuma et cumin, rôties au four."
+    }
+  },
+  {
+    "nom": "Curry",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Complexe",
+    "description": "Mélange d'épices (Masala) variant selon les régions.",
+    "profil_sensoriel": "Chaud / Piquant / Terreux",
+    "info_technique": "Composition : Curcuma, Coriandre, Cumin, Fenugrec, Piment...",
+    "associations": {
+      "sale": ["Poulet", "Lait de coco", "Chou-fleur", "Agneau", "Moule"],
+      "sucre": ["Ananas", "Pomme", "Banane", "Chocolat au lait"],
+      "vin": ["Gewurztraminer (sucre contre piment)", "Rosé"],
+      "mixologie": ["Cocktail au Rhum épicé"],
+      "biere_cidre": ["IPA", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Poulet au Curry et Coco",
+      "details": "Mijoté avec lait de coco, citronnelle et pâte de curry vert ou jaune."
+    }
+  },
+  {
+    "nom": "Datte",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Sucré",
+    "description": "Fruit sec à la texture charnue et au goût intensément caramélisé.",
+    "profil_sensoriel": "Très sucré / Collant / Caramel",
+    "info_technique": "Utilisation : Souvent dénoyautée et farcie (avec amande ou pâte d'amande).",
+    "associations": {
+      "sale": ["Bacon", "Chorizo (farce)", "Fromage de chèvre", "Amande salée", "Agneau"],
+      "sucre": ["Noix de Pécan", "Caramel au beurre salé", "Chocolat noir", "Rhum"],
+      "vin": ["Porto Tawny", "Rivesaltes", "Vin de paille"],
+      "mixologie": ["Old Fashioned (Infusé)", "Rhum Vieux"],
+      "biere_cidre": ["Stout Impérial", "Barley Wine"]
+    },
+    "recette_data": {
+      "titre": "Dattes farcies au bacon",
+      "details": "Farcir de pâte d'amande ou de chèvre, enrouler de bacon et rôtir jusqu'à croustillance."
+    }
+  },
+  {
+    "nom": "Dinde",
+    "type": "Viande",
+    "famille_saveur": "Carné / Volaille",
+    "description": "Volaille à la chair maigre, idéale pour les farces et les sauces riches.",
+    "profil_sensoriel": "Maigre / Doux / Umami léger",
+    "info_technique": "Variété : Dinde Noire (plus savoureuse) ou Chapon (plus gras).",
+    "associations": {
+      "sale": ["Marron", "Sauge", "Airelle (Sauce)", "Cranberry", "Pain d'épices"],
+      "sucre": ["Sirop d'érable", "Pomme", "Miel (Laquage)"],
+      "vin": ["Chardonnay (Bourgogne)", "Beaujolais", "Vin Jaune (Sauce)"],
+      "mixologie": ["Manhattan", "Rhum arrangé"],
+      "biere_cidre": ["Cidre Brut", "Bière Ambrée", "Bière de Noël"]
+    },
+    "recette_data": {
+      "titre": "Rôti de dinde aux marrons",
+      "details": "Farcir avec une farce riche en hachis et châtaignes. Arroser souvent."
+    }
+  },
+  {
+    "nom": "Dorade",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Blanc",
+    "description": "Poisson à chair blanche et fine, goût délicat et peu prononcé.",
+    "profil_sensoriel": "Doux / Marin / Écaille",
+    "info_technique": "Préparation : Au four, à la plancha ou en filet au court-bouillon.",
+    "associations": {
+      "sale": ["Fenouil", "Citron", "Tomate", "Huile d'olive", "Thym", "Basilic"],
+      "sucre": ["Orange", "Anis", "Mangue (Tartare)"],
+      "vin": ["Vin blanc sec (Sancerre, Cassis)", "Rosé de Provence"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Pilsner", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Dorade entière au four et au Fenouil",
+      "details": "Farcir le ventre du poisson d'herbes aromatiques et de tranches de fenouil."
+    }
+  },
+  {
+    "nom": "Échalote",
+    "type": "Condiment",
+    "famille_saveur": "Sulfuré",
+    "description": "Bulbe aromatique, plus fin et doux que l'oignon, base de la plupart des sauces françaises.",
+    "profil_sensoriel": "Piquant / Sucré (cuit) / Soufré",
+    "info_technique": "Utilisation : Essentielle pour le déglaçage et les sauces (Béarnaise, Beurre Blanc).",
+    "associations": {
+      "sale": ["Vinaigre de vin", "Huître", "Bœuf", "Bacon", "Vin rouge"],
+      "sucre": ["Caramel (Tatin)", "Miel", "Sucre roux (confit)"],
+      "vin": ["Muscadet (avec Huître)", "Bordeaux Rouge (avec Bœuf)"],
+      "mixologie": ["Bloody Mary", "Gibson (Garniture)"],
+      "biere_cidre": ["Gueuze", "Bière Blonde légère"]
+    },
+    "recette_data": {
+      "titre": "Beurre Blanc classique",
+      "details": "Échalotes ciselées réduites au vin blanc et vinaigre, montées au beurre froid."
+    }
+  },
+  {
+    "nom": "Épinard",
+    "type": "Légume",
+    "famille_saveur": "Vert / Minéral",
+    "description": "Feuille verte riche en fer, réduite en bouche mais très polyvalente.",
+    "profil_sensoriel": "Herbacé / Minéral / Doux",
+    "info_technique": "Préparation : Cuire rapidement pour conserver les nutriments (et la couleur).",
+    "associations": {
+      "sale": ["Chèvre frais", "Noix de muscade", "Oeuf", "Crème", "Saumon"],
+      "sucre": ["Pomme verte", "Poire (Salade)", "Raisin sec"],
+      "vin": ["Sauvignon Blanc", "Chablis (Minéral)"],
+      "mixologie": ["Green Bloody Mary", "Cocktail détox (Gin/Concombre)"],
+      "biere_cidre": ["Saison", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Épinards à la crème et muscade",
+      "details": "Lier les feuilles d'épinard à la crème fraîche assaisonnée de sel, poivre et muscade."
+    }
+  },
+  {
+    "nom": "Estragon",
+    "type": "Herbe",
+    "famille_saveur": "Anisé",
+    "description": "Herbe fraîche aux notes anisées et poivrées, essentielle de la cuisine classique.",
+    "profil_sensoriel": "Anisé / Poivré / Aromatique",
+    "info_technique": "Utilisation : Ne supporte pas les cuissons longues (l'ajouter en fin de cuisson).",
+    "associations": {
+      "sale": ["Poulet", "Champignon", "Moutarde", "Crème", "Veau (Blanquette)"],
+      "sucre": ["Pêche blanche", "Pamplemousse", "Chocolat blanc"],
+      "vin": ["Pouilly-Fumé", "Chardonnay non boisé"],
+      "mixologie": ["Gin Tonic (Infusé)", "Smash Estragon-Citron"],
+      "biere_cidre": ["Cidre sec", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Sauce Béarnaise (mère)",
+      "details": "Réduction vin blanc/estragon/échalote montée au jaune d'œuf et beurre clarifié."
+    }
+  },
+  {
+    "nom": "Fenouil",
+    "type": "Légume",
+    "famille_saveur": "Anisé / Sulfuré",
+    "description": "Bulbe croquant et sucré, souvent consommé cru ou rôti, très aromatique.",
+    "profil_sensoriel": "Anisé / Sucré / Croquant",
+    "info_technique": "Préparation : Rôti au four, il devient confit et perd son piquant anisé.",
+    "associations": {
+      "sale": ["Dorade", "Saucisse", "Orange", "Ail", "Saumon"],
+      "sucre": ["Pomme", "Poire", "Chocolat noir"],
+      "vin": ["Vin de Provence (Blanc/Rosé)", "Muscadet (avec poisson)"],
+      "mixologie": ["Pastis / Ricard", "Ouzo", "Cocktail Fenouil-Gin"],
+      "biere_cidre": ["Bière Blanche (Épicée)", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Fenouil braisé à l'orange",
+      "details": "Cuisson lente à couvert, jus d'orange et thym, jusqu'à tendreté."
+    }
+  },
+  {
+    "nom": "Feta",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Salé",
+    "description": "Fromage grec au lait de brebis ou de chèvre, texture friable et goût très salé.",
+    "profil_sensoriel": "Salé / Acidulé / Crémeux",
+    "info_technique": "Conseil : À conserver dans sa saumure pour éviter le dessèchement.",
+    "associations": {
+      "sale": ["Tomate", "Pastèque", "Menthe", "Concombre", "Olive"],
+      "sucre": ["Miel (au four)", "Figue", "Raisin"],
+      "vin": ["Rosé de Provence", "Vin Blanc Grec (Assyrtiko)"],
+      "mixologie": ["Ouzo", "Cocktail à base d'olive"],
+      "biere_cidre": ["Lager Grecque", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Salade grecque (Horiatiki)",
+      "details": "Tomates, concombre, olives, oignon rouge et gros pavé de feta arrosé d'huile d'olive."
+    }
+  },
+  {
+    "nom": "Fève Tonka",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Amande",
+    "description": "Fève noire d'Amazonie, arômes envoûtants d'amande, vanille et foin coupé.",
+    "profil_sensoriel": "Amande / Vanille / Fumé",
+    "info_technique": "Utilisation : Râper avec parcimonie (puissant) comme la muscade.",
+    "associations": {
+      "sale": ["Saint-Jacques", "Potiron", "Foie gras"],
+      "sucre": ["Chocolat", "Abricot", "Pistache", "Caramel", "Crème Brûlée"],
+      "vin": ["Maury", "Porto"],
+      "mixologie": ["Rhum", "Cognac", "Espresso Martini"],
+      "biere_cidre": ["Stout", "Porter"]
+    },
+    "recette_data": {
+      "titre": "Crème brûlée à la Tonka",
+      "details": "Infuser la fève râpée dans la crème chaude à la place de la vanille."
+    }
+  },
+  {
+    "nom": "Figue",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Crémeux",
+    "description": "Fruit sucré à la texture granuleuse (graines) et très apprécié en confiture.",
+    "profil_sensoriel": "Sucré / Terreux / Graineux",
+    "info_technique": "Saison : Été / Début Automne (Variété de Solliès AOP).",
+    "associations": {
+      "sale": ["Jambon de Parme", "Foie gras", "Chèvre", "Noix", "Canard"],
+      "sucre": ["Miel", "Amande", "Vanille", "Framboise", "Rhum"],
+      "vin": ["Porto Tawny", "Banyuls", "Gewurztraminer Vendanges Tardives"],
+      "mixologie": ["Figue Sour", "Cognac", "Sauternes (en spiritueux)"],
+      "biere_cidre": ["Bière Brune", "Stout", "Cidre doux"]
+    },
+    "recette_data": {
+      "titre": "Figues rôties au miel et chèvre",
+      "details": "Ouvrir en croix, garnir de chèvre frais, d'une noix et d'un filet de miel avant de rôtir."
+    }
+  },
+  {
+    "nom": "Foie Gras",
+    "type": "Produit Carné",
+    "famille_saveur": "Gras / Végétal",
+    "description": "Spécialité française riche, goût puissant et texture fondante (canard ou oie).",
+    "profil_sensoriel": "Gras / Lactique / Amer léger",
+    "info_technique": "Cuisine : Poêlé (rapide) ou Cru (terrine).",
+    "associations": {
+      "sale": ["Fleur de sel", "Poivre", "Lard", "Cèpe", "Piment"],
+      "sucre": ["Chutney de figue", "Pain d'épices", "Gelée de coing", "Cassis"],
+      "vin": ["Sauternes", "Monbazillac", "Champagne Brut Millésimé"],
+      "mixologie": ["Cognac XO (Digestif)", "Whisky Tourbé (audacieux)"],
+      "biere_cidre": ["Bière de Noël (Épicée)", "Vin de Céréales Fort"]
+    },
+    "recette_data": {
+      "titre": "Foie Gras Poêlé aux figues",
+      "details": "Cuisson très vive (1 min par face) sans matière grasse. Assaisonner après."
+    }
+  },
+  {
+    "nom": "Fraise",
+    "type": "Fruit",
+    "famille_saveur": "Floral Fruité",
+    "description": "Le fruit rouge de l'été, délicat et parfumé, varié en goût (gariguette, mara des bois).",
+    "profil_sensoriel": "Sucré / Floral / Acidulé",
+    "info_technique": "Saison : Mai à Juillet (gariguette).",
+    "associations": {
+      "sale": ["Basilic", "Vinaigre Balsamique", "Poivre noir", "Tomate (salade)"],
+      "sucre": ["Rhubarbe", "Vanille", "Pistache", "Menthe"],
+      "vin": ["Champagne Rosé", "Crémant de Loire", "Cabernet d'Anjou"],
+      "mixologie": ["Mojito Fraise", "Daiquiri Fraise", "Gin Tonic"],
+      "biere_cidre": ["Bière Rouge (Kriek)", "Cidre Rosé"]
+    },
+    "recette_data": {
+      "titre": "Carpaccio de fraises au Basilic",
+      "details": "Couper très finement, arroser de jus de citron et de quelques feuilles de basilic déchirées."
+    }
+  },
+  {
+    "nom": "Framboise",
+    "type": "Fruit",
+    "famille_saveur": "Ronces & Baies",
+    "description": "Petite baie fragile, saveur aigre-douce et très aromatique.",
+    "profil_sensoriel": "Acide / Floral / Doux",
+    "info_technique": "Saison : Été (deux récoltes possibles).",
+    "associations": {
+      "sale": ["Canard (Sauce)", "Betterave", "Chèvre frais"],
+      "sucre": ["Chocolat noir", "Litchi", "Rose (Ispahan)", "Pistache"],
+      "vin": ["Banyuls Rimage", "Champagne Rosé", "Cerdon"],
+      "mixologie": ["Cosmopolitan", "Bramble", "Rhum"],
+      "biere_cidre": ["Framboise Lambic", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Coulis de Framboise minute",
+      "details": "Mixer les framboises avec une cuillère de sucre glace et un trait de jus de citron."
+    }
+  },
+  {
+    "nom": "Fruit de la Passion",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Tropical",
+    "description": "Pulpe gélatineuse et graines noires, goût intensément acide et parfumé.",
+    "profil_sensoriel": "Très acide / Aromatique / Graineux",
+    "info_technique": "Indicateur : Plus la peau est ridée, plus le fruit est mûr et parfumé.",
+    "associations": {
+      "sale": ["Poisson cru (Ceviche)", "Avocat", "Crevette"],
+      "sucre": ["Chocolat blanc", "Vanille", "Coco", "Mangue", "Miel"],
+      "vin": ["Sauternes", "Riesling Spätlese"],
+      "mixologie": ["Porn Star Martini", "Daiquiri"],
+      "biere_cidre": ["Sour Ale", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Mousse Chocolat Blanc et Fruit de la Passion",
+      "details": "Le jus du fruit doit être incorporé froid pour ne pas faire figer la mousse."
+    }
+  },
+  {
+    "nom": "Gambas",
+    "type": "Crustacé",
+    "famille_saveur": "Marin / Sucré",
+    "description": "Crustacé à la chair ferme et iodée, développant des notes sucrées à la cuisson.",
+    "profil_sensoriel": "Umami / Sucré / Croquant",
+    "info_technique": "Saison : Toute l'année (surgelé) ou Été (frais).",
+    "associations": {
+      "sale": ["Ail", "Piment d'Espelette", "Chorizo", "Avocat", "Mangue"],
+      "sucre": ["Vanille (sauce)", "Ananas rôti", "Coco"],
+      "vin": ["Riesling (Alsace)", "Chablis (Bourgogne)", "Côtes de Provence (Rosé)"],
+      "mixologie": ["Mojito (Gambas flambées au Rhum)", "Margarita"],
+      "biere_cidre": ["Bière Blanche (Blé)", "IPA (agrumes)"]
+    },
+    "recette_data": {
+      "titre": "Brochettes Gambas-Chorizo",
+      "details": "Cuisson vive 3 min. Accord Terre-Mer puissant."
+    }
+  },
+  {
+    "nom": "Gibier (Chevreuil/Biche)",
+    "type": "Viande",
+    "famille_saveur": "Carné / Gibier",
+    "description": "Viande sauvage maigre au goût ferreux et puissant.",
+    "profil_sensoriel": "Umami / Sanguin / Bois",
+    "info_technique": "Saison : Automne/Hiver (Chasse). Marinade conseillée.",
+    "associations": {
+      "sale": ["Airelle", "Cassis", "Champignon sauvage", "Châtaigne", "Poivre"],
+      "sucre": ["Chocolat noir (Sauce Grand Veneur)", "Poire", "Coing"],
+      "vin": ["Pomerol", "Châteauneuf-du-Pape", "Syrah (Cornas)"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Brune d'Abbaye", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Civet de biche grand veneur",
+      "details": "Sauce liée au sang ou au chocolat noir pour l'onctuosité."
+    }
+  },
+  {
+    "nom": "Gin",
+    "type": "Alcool",
+    "famille_saveur": "Floral / Herbacé",
+    "description": "Spiritueux distillé à base de baies de genièvre, base incontournable de la mixologie.",
+    "profil_sensoriel": "Amer / Résineux / Floral",
+    "info_technique": "Type : Dry, Old Tom ou Plymouth.",
+    "associations": {
+      "sale": ["Saumon gravlax", "Concombre", "Olive", "Huître (Shot)", "Aneth"],
+      "sucre": ["Citron", "Basilic", "Romarin", "Pamplemousse", "Huître (Gelée)"],
+      "vin": ["Vermouth Dry (pour Martini)", "Lillet Blanc"],
+      "mixologie": ["Tonic", "Sureau", "Chartreuse"],
+      "biere_cidre": ["Ginger Beer (London Mule)"]
+    },
+    "recette_data": {
+      "titre": "Classic Gin Tonic",
+      "details": "Proportions : 1 part Gin (4cl), 3 parts Tonic (12cl), 1 zeste citron."
+    }
+  },
+  {
+    "nom": "Gingembre",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Agrume",
+    "description": "Rhizome aux notes citronnées et poivrées, apportant une chaleur immédiate.",
+    "profil_sensoriel": "Piquant / Frais / Citronné",
+    "info_technique": "Origine : Asie. Privilégier le frais au poudre.",
+    "associations": {
+      "sale": ["Porc", "Carotte", "Ail", "Soja", "Canard", "Citrouille"],
+      "sucre": ["Chocolat noir", "Poire", "Rhubarbe", "Miel", "Citron vert"],
+      "vin": ["Gewurztraminer (Alsace)", "Champagne (contraste)"],
+      "mixologie": ["Vodka (Moscow Mule)", "Rhum (Dark & Stormy)"],
+      "biere_cidre": ["Cidre Brut", "Lager légère"]
+    },
+    "recette_data": {
+      "titre": "Porc au caramel et gingembre",
+      "details": "Ajouter le gingembre frais en fin de cuisson pour garder le peps."
+    }
+  },
+  {
+    "nom": "Girofle (Clou)",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Carné",
+    "description": "Bouton floral séché à la puissance aromatique anesthésiante et chaude.",
+    "profil_sensoriel": "Amer / Chaud / Boisé",
+    "info_technique": "Utilisation : Avec parcimonie (1 ou 2 clous suffisent).",
+    "associations": {
+      "sale": ["Oignon (piqué)", "Pot-au-feu", "Jambon", "Chou rouge"],
+      "sucre": ["Orange", "Pain d'épices", "Pêche pochée", "Vin chaud"],
+      "vin": ["Vin Chaud (épices)", "Bordeaux rouge (notes barriques)"],
+      "mixologie": ["Rhum épicé", "Punch chaud"],
+      "biere_cidre": ["Bière de Noël"]
+    },
+    "recette_data": {
+      "titre": "Poires au vin et épices",
+      "details": "Pocher 20 min dans un sirop vin rouge, cannelle et 2 clous de girofle."
+    }
+  },
+  {
+    "nom": "Goyave",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Tropical",
+    "description": "Fruit tropical à la chair rose ou blanche, parfum musqué très intense.",
+    "profil_sensoriel": "Sucré / Musqué / Acide",
+    "info_technique": "Texture : Granuleuse (comme la poire).",
+    "associations": {
+      "sale": ["Porc (glacage)", "Crevette", "Chèvre frais"],
+      "sucre": ["Vanille", "Citron vert", "Coco", "Fraise"],
+      "vin": ["Gewurztraminer", "Rhum (pas un vin, mais accord majeur)"],
+      "mixologie": ["Rhum Agricole", "Tequila"],
+      "biere_cidre": ["IPA", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Sorbet Goyave-Citron vert",
+      "details": "Mixer la pulpe, passer au tamis pour retirer les graines, turbiner."
+    }
+  },
+  {
+    "nom": "Grenade",
+    "type": "Fruit",
+    "famille_saveur": "Acidulé / Tannique",
+    "description": "Fruit contenant des arilles (graines) croquantes et juteuses.",
+    "profil_sensoriel": "Acide / Sucré / Astringent",
+    "info_technique": "Saison : Hiver. Superbe pour la couleur en finition.",
+    "associations": {
+      "sale": ["Aubergine", "Agneau", "Salade verte", "Noix", "Canard"],
+      "sucre": ["Chocolat noir", "Orange", "Pistache", "Eau de rose"],
+      "vin": ["Rosé foncé", "Syrah fruité"],
+      "mixologie": ["Tequila", "Gin", "Sirop de Grenadine (Maison)"],
+      "biere_cidre": ["Bière Blanche", "Kriek"]
+    },
+    "recette_data": {
+      "titre": "Aubergines rôties à la grenade",
+      "details": "Aubergines fondantes, sauce yaourt-tahini et pluie de graines de grenade."
+    }
+  },
+  {
+    "nom": "Gruyère",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Fruité",
+    "description": "Fromage suisse à pâte pressée cuite, sans trous (contrairement à l'Emmental).",
+    "profil_sensoriel": "Salé / Noisette / Fruité",
+    "info_technique": "AOP : Gruyère Suisse (salé) ou Français (plus doux).",
+    "associations": {
+      "sale": ["Oignon (Soupe)", "Jambon", "Muscade", "Pomme de terre"],
+      "sucre": ["Raisin", "Pomme", "Poire", "Noix"],
+      "vin": ["Vin Jaune (Jura)", "Chardonnay", "Pinot Noir léger"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blonde", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Soupe à l'oignon gratinée",
+      "details": "Croutons de pain frottés à l'ail et épaisse couche de gruyère râpé."
+    }
+  },
+  {
+    "nom": "Hareng",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Fumé",
+    "description": "Poisson gras souvent consommé mariné ou fumé.",
+    "profil_sensoriel": "Gras / Salé / Fumé (si préparé)",
+    "info_technique": "Plat culte : Hareng Pomme à l'Huile.",
+    "associations": {
+      "sale": ["Pomme de terre", "Oignon", "Carotte", "Betterave", "Crème"],
+      "sucre": ["Pomme (Salade)", "Sucre (Marinade scandinave)"],
+      "vin": ["Muscadet", "Riesling sec", "Vodka (Accord russe)"],
+      "mixologie": ["Bloody Mary (Garniture)"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Harengs Pommes à l'Huile",
+      "details": "Filets marinés servis avec pommes de terre tièdes et rondelles d'oignon."
+    }
+  },
+  {
+    "nom": "Haricot Vert",
+    "type": "Légume",
+    "famille_saveur": "Vert / Végétal",
+    "description": "Légume fin et croquant, marqueur des beaux jours.",
+    "profil_sensoriel": "Herbacé / Doux / Croquant",
+    "info_technique": "Saison : Juin à Septembre.",
+    "associations": {
+      "sale": ["Ail", "Lardons", "Amande", "Tomate", "Beurre"],
+      "sucre": ["N/A"],
+      "vin": ["Sauvignon Blanc", "Beaujolais Village"],
+      "mixologie": ["Bloody Mary (Déco)"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Salade Liégeoise",
+      "details": "Haricots, pommes de terre et lardons déglacés au vinaigre."
+    }
+  },
+  {
+    "nom": "Homard",
+    "type": "Crustacé",
+    "famille_saveur": "Marin / Sulfuré",
+    "description": "Le roi des crustacés, chair fine, dense et subtilement sucrée.",
+    "profil_sensoriel": "Umami / Sucré / Riche",
+    "info_technique": "Variété Top : Homard Bleu (Breton).",
+    "associations": {
+      "sale": ["Beurre", "Estragon", "Vanille", "Cognac", "Petits pois"],
+      "sucre": ["Pamplemousse", "Mangue", "Vanille", "Fraise (audacieux)"],
+      "vin": ["Meursault (Bourgogne Blanc)", "Champagne Millésimé", "Chablis"],
+      "mixologie": ["Gin (iodé)", "Vodka Premium"],
+      "biere_cidre": ["Bière Blanche", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Homard rôti au beurre vanillé",
+      "details": "Fendre en deux, rôtir au four avec un beurre demi-sel à la vanille."
+    }
+  },
+  {
+    "nom": "Huile d'olive",
+    "type": "Condiment",
+    "famille_saveur": "Végétal / Fruité",
+    "description": "L'or liquide de la Méditerranée. De douce à ardente.",
+    "profil_sensoriel": "Gras / Amer / Piquant (si fraîche)",
+    "info_technique": "Variété : Vierge Extra (pression à froid).",
+    "associations": {
+      "sale": ["Tomate", "Ail", "Basilic", "Poisson", "Légumes grillés"],
+      "sucre": ["Chocolat noir (Mousse)", "Vanille (Glace)", "Orange", "Citron"],
+      "vin": ["Rosé de Provence", "Vins du Sud"],
+      "mixologie": ["Fat wash (Technique cocktail)", "Gin (Olive washing)"],
+      "biere_cidre": ["Saison"]
+    },
+    "recette_data": {
+      "titre": "Glace à l'huile d'olive",
+      "details": "Une glace vanille turbinée avec un filet d'huile d'olive fruité noir."
+    }
+  },
+  {
+    "nom": "Huître",
+    "type": "Coquillage",
+    "famille_saveur": "Marin / Saumuré",
+    "description": "L'océan pur en bouche. Minérale, iodée et vivifiante.",
+    "profil_sensoriel": "Salé / Iodé / Métallique",
+    "info_technique": "Saison : Les mois en 'R' (Sept-Avril) pour les charnues.",
+    "associations": {
+      "sale": ["Vinaigre échalote", "Saucisse (Crépinette)", "Citron", "Raifort", "Gin (Shot)"],
+      "sucre": ["Pomme verte (Granité)", "Kiwi", "Gin (Gelée)"],
+      "vin": ["Muscadet Sèvre et Maine", "Chablis", "Champagne Blanc de Blancs"],
+      "mixologie": ["Vodka (Oyster Shooter)", "Gin Tonic"],
+      "biere_cidre": ["Stout (Accord Irlandais)", "Gueuze"]
+    },
+    "recette_data": {
+      "titre": "Huîtres chaudes au Champagne",
+      "details": "Gratiner 2 min avec un sabayon au Champagne."
+    }
+  },
+  {
+    "nom": "Jambon Cru (Sec)",
+    "type": "Charcuterie",
+    "famille_saveur": "Salé / Umami",
+    "description": "Cuisse de porc salée et séchée, développant des arômes de noisette et de sel.",
+    "profil_sensoriel": "Salé / Gras / Umami",
+    "info_technique": "Variétés : Bayonne (Doux), Serrano (Typé), Pata Negra (Gras/Noisette).",
+    "associations": {
+      "sale": ["Melon", "Asperge", "Figue", "Tomate", "Mozzarella", "Raclette"],
+      "sucre": ["Figue", "Miel", "Datte", "Pêche (rôtie)"],
+      "vin": ["Rosé de Provence", "Chianti (Italie)", "Pinot Noir"],
+      "mixologie": ["Bloody Mary (Garniture)", "Cocktail au Melon"],
+      "biere_cidre": ["Bière Ambrée", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Tartine Figue-Jambon",
+      "details": "Pain de campagne grillé, chèvre frais, figue rôtie et chiffonnade de jambon."
+    }
+  },
+  {
+    "nom": "Jus de Yuzu",
+    "type": "Fruit",
+    "famille_saveur": "Agrume",
+    "description": "Agrume japonais précieux, entre le citron vert, la mandarine et le pamplemousse.",
+    "profil_sensoriel": "Acide / Floral / Amère",
+    "info_technique": "Utilisation : Quelques gouttes suffisent (très puissant).",
+    "associations": {
+      "sale": ["Saint-Jacques", "Poisson cru", "Avocat", "Soja", "Canard"],
+      "sucre": ["Chocolat au lait", "Meringue", "Praliné", "Matcha"],
+      "vin": ["Riesling Grand Cru", "Saké"],
+      "mixologie": ["Gin Tonic Yuzu", "Whisky Highball"],
+      "biere_cidre": ["IPA", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Carpaccio de Saint-Jacques au Yuzu",
+      "details": "Marinade minute : huile de sésame, ponzu et jus de yuzu."
+    }
+  },
+  {
+    "nom": "Kale (Chou)",
+    "type": "Légume",
+    "famille_saveur": "Vert / Amer",
+    "description": "Chou frisé non pommé, texture coriace et goût végétal intense.",
+    "profil_sensoriel": "Amer / Herbacé / Croquant",
+    "info_technique": "Astuce : Masser les feuilles avec de l'huile et du citron pour les attendrir crues.",
+    "associations": {
+      "sale": ["Ail", "Citron", "Parmesan", "Anchois", "Piment"],
+      "sucre": ["Pomme", "Grenade"],
+      "vin": ["Sauvignon Blanc"],
+      "mixologie": ["Jus vert (Détox)"],
+      "biere_cidre": ["IPA", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Chips de Kale",
+      "details": "Feuilles massées à l'huile, cuites au four jusqu'à ce qu'elles soient croustillantes."
+    }
+  },
+  {
+    "nom": "Kaki",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Doux",
+    "description": "Fruit d'hiver orange vif, saveur douce proche de l'abricot et du miel.",
+    "profil_sensoriel": "Sucré / Vanillé / Doux",
+    "info_technique": "Variété : Persimon (Ferme, se mange comme une pomme).",
+    "associations": {
+      "sale": ["Jambon cru", "Chèvre", "Noix", "Salade amère (Trévise)"],
+      "sucre": ["Vanille", "Grenade", "Cannelle", "Yaourt"],
+      "vin": ["Gewurztraminer", "Muscat"],
+      "mixologie": ["Cocktail au Rhum"],
+      "biere_cidre": ["Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Salade d'automne Kaki-Jambon",
+      "details": "Quartiers de kaki Persimon, jambon de parme, noix et vinaigrette balsamique."
+    }
+  },
+  {
+    "nom": "Kimchi",
+    "type": "Condiment",
+    "famille_saveur": "Piquant / Fermenté",
+    "description": "Chou fermenté coréen au piment, goût complexe acide et umami.",
+    "profil_sensoriel": "Acide / Piquant / Umami",
+    "info_technique": "Santé : Riche en probiotiques. Ne pas cuire trop longtemps pour les garder.",
+    "associations": {
+      "sale": ["Porc", "Riz", "Oeuf", "Tofu", "Sésame"],
+      "sucre": ["Poire (dans la marinade)", "Sucre roux"],
+      "vin": ["Riesling (sucre résiduel)", "Gewurztraminer"],
+      "mixologie": ["Bloody Mary Kimchi"],
+      "biere_cidre": ["Lager", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Kimchi Fried Rice",
+      "details": "Riz sauté au kimchi, jus de kimchi et œuf au plat sur le dessus."
+    }
+  },
+  {
+    "nom": "Kiwi",
+    "type": "Fruit",
+    "famille_saveur": "Acidulé / Vert",
+    "description": "Fruit acidulé et vitaminé, apportant fraîcheur et couleur.",
+    "profil_sensoriel": "Acide / Sucré / Herbacé",
+    "info_technique": "Chimie : Ne pas mélanger avec des produits laitiers trop longtemps (devient amer).",
+    "associations": {
+      "sale": ["Saumon", "Crabe", "Avocat", "Concombre", "Crevette"],
+      "sucre": ["Fraise", "Banane", "Chocolat blanc", "Coco", "Mangue"],
+      "vin": ["Sauvignon Blanc (si salé)", "Jurançon doux (si dessert)"],
+      "mixologie": ["Caipiroska Kiwi", "Gin Tonic"],
+      "biere_cidre": ["Sour Ale", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Tartare Saumon-Kiwi",
+      "details": "Couper en dés de taille identique, assaisonner avec échalote et citron vert."
+    }
+  },
+  {
+    "nom": "Kumquat",
+    "type": "Fruit",
+    "famille_saveur": "Agrume / Amer",
+    "description": "Mini-agrume qui se mange avec la peau (douce) alors que la chair est acide.",
+    "profil_sensoriel": "Acide / Amer / Sucré (peau)",
+    "info_technique": "Saison : Hiver. Excellent confit.",
+    "associations": {
+      "sale": ["Canard", "Gibier", "Foie gras", "Agneau"],
+      "sucre": ["Chocolat noir", "Amande", "Miel", "Gingembre"],
+      "vin": ["Sauternes", "Grand Marnier (Liqueur)"],
+      "mixologie": ["Gin Tonic", "Cocktail au Whisky"],
+      "biere_cidre": ["IPA", "Triple"]
+    },
+    "recette_data": {
+      "titre": "Canard aux Kumquats confits",
+      "details": "Confire les kumquats entiers dans un sirop de sucre et vinaigre."
+    }
+  },
+  {
+    "nom": "Lait de Coco",
+    "type": "Liquide",
+    "famille_saveur": "Fruité Crémeux",
+    "description": "Liquide riche extrait de la noix de coco, base des currys et desserts exotiques.",
+    "profil_sensoriel": "Gras / Doux / Noisette",
+    "info_technique": "Cuisine : Ne pas faire bouillir trop fort sinon il tranche.",
+    "associations": {
+      "sale": ["Curry", "Poulet", "Crevette", "Citronnelle", "Potiron"],
+      "sucre": ["Ananas", "Mangue", "Chocolat", "Banane", "Perle du Japon"],
+      "vin": ["Gewurztraminer", "Viognier"],
+      "mixologie": ["Piña Colada", "Batida", "Rhum"],
+      "biere_cidre": ["Stout (Coco)", "Witbier"]
+    },
+    "recette_data": {
+      "titre": "Curry Thaï Vert",
+      "details": "Pâte de curry vert frite, mouillée au lait de coco, avec poulet et aubergines."
+    }
+  },
+  {
+    "nom": "Langoustine",
+    "type": "Crustacé",
+    "famille_saveur": "Marin / Doux",
+    "description": "Crustacé à la chair rose pâle, plus fine et subtile que le homard.",
+    "profil_sensoriel": "Sucré / Marin / Fondant",
+    "info_technique": "Cuisson : Très rapide (pochée quelques secondes) ou crue.",
+    "associations": {
+      "sale": ["Estragon", "Citron", "Petit pois", "Mayonnaise", "Radis"],
+      "sucre": ["Vanille (Audacieux)", "Mangue", "Agrumes"],
+      "vin": ["Chablis Grand Cru", "Champagne Blanc de Blancs", "Puligny-Montrachet"],
+      "mixologie": ["Gin (très sec)"],
+      "biere_cidre": ["Bière Blanche", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Langoustines rôties au thym",
+      "details": "Juste saisies à l'huile d'olive, fleur de sel et thym citron."
+    }
+  },
+  {
+    "nom": "Lapin",
+    "type": "Viande",
+    "famille_saveur": "Carné / Maigre",
+    "description": "Viande blanche maigre au goût délicat, demandant une cuisson maîtrisée.",
+    "profil_sensoriel": "Doux / Herbacé / Sec",
+    "info_technique": "Morceaux : Râble (tendre) et Cuisses (à mijoter).",
+    "associations": {
+      "sale": ["Moutarde", "Thym", "Pruneau", "Vin blanc", "Estragon", "Olive"],
+      "sucre": ["Pruneau", "Raisin sec", "Carotte (glacée)"],
+      "vin": ["Chardonnay (Bourgogne)", "Chenin Blanc", "Beaujolais"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Gueuze (Lapin à la Gueuze)", "Bière Blonde"]
+    },
+    "recette_data": {
+      "titre": "Lapin à la Moutarde",
+      "details": "Badigeonner généreusement de moutarde forte et mijoter avec crème et vin blanc."
+    }
+  },
+  {
+    "nom": "Lardon (Fumé)",
+    "type": "Charcuterie",
+    "famille_saveur": "Salé / Fumé",
+    "description": "Petits dés de poitrine de porc fumée, l'assaisonnement magique de la cuisine bistro.",
+    "profil_sensoriel": "Salé / Fumé / Gras",
+    "info_technique": "Conseil : Démarrer la cuisson à froid pour bien fondre le gras.",
+    "associations": {
+      "sale": ["Oignon", "Oeuf", "Crème", "Pomme de terre", "Lentille", "Chou"],
+      "sucre": ["Sirop d'érable", "Pruneau (bardé)"],
+      "vin": ["Syrah", "Côtes du Rhône", "Pinot Noir"],
+      "mixologie": ["Bloody Mary (Garniture)", "Bourbon (Fat wash)"],
+      "biere_cidre": ["Rauchbier (Bière fumée)", "Porter"]
+    },
+    "recette_data": {
+      "titre": "Pâtes Carbonara (vraie)",
+      "details": "Guanciale (ou lardons), Pecorino, Poivre et Jaunes d'œufs. Pas de crème."
+    }
+  },
+  {
+    "nom": "Lentille",
+    "type": "Légume",
+    "famille_saveur": "Terreux",
+    "description": "Légumineuse au goût de terre et de noisette, star de l'Auvergne.",
+    "profil_sensoriel": "Terreux / Farineux / Doux",
+    "info_technique": "Variété : Lentille Verte du Puy AOP (tient mieux à la cuisson).",
+    "associations": {
+      "sale": ["Saucisse (Morteau)", "Saumon fumé", "Carotte", "Oignon", "Lardons"],
+      "sucre": ["Non courant"],
+      "vin": ["Gamay (Beaujolais)", "Pinot Noir léger"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Brown Ale", "Amber Ale"]
+    },
+    "recette_data": {
+      "titre": "Petit salé aux lentilles",
+      "details": "Mijoter les lentilles avec carottes, oignons et viandes de porc salées."
+    }
+  },
+  {
+    "nom": "Litchi",
+    "type": "Fruit",
+    "famille_saveur": "Floral Fruité",
+    "description": "Fruit exotique à la chair blanche translucide et au parfum de rose prononcé.",
+    "profil_sensoriel": "Sucré / Floral (Rose) / Aqueux",
+    "info_technique": "Saison : Hiver (Décembre-Janvier).",
+    "associations": {
+      "sale": ["Canard", "Foie gras", "Crevette", "Porc"],
+      "sucre": ["Rose", "Framboise", "Pistache", "Coco", "Chocolat blanc"],
+      "vin": ["Gewurztraminer (Accord parfait)", "Champagne Rosé"],
+      "mixologie": ["Martini Litchi", "Soho", "Vodka"],
+      "biere_cidre": ["Bière Blanche fruitée", "Cidre Rosé"]
+    },
+    "recette_data": {
+      "titre": "Ispahan (Inspiré Pierre Hermé)",
+      "details": "L'accord mythique : Macaron à la rose, crème litchi et framboises fraîches."
+    }
+  },
+  {
+    "nom": "Mâche",
+    "type": "Légume",
+    "famille_saveur": "Vert / Noisette",
+    "description": "Petite salade d'hiver au goût délicat de noisette et à la texture tendre.",
+    "profil_sensoriel": "Herbacé / Doux / Noisette",
+    "info_technique": "Saison : Automne et Hiver (résiste au froid).",
+    "associations": {
+      "sale": ["Noix", "Betterave", "Noix de Saint-Jacques (carpaccio)", "Oeuf poché"],
+      "sucre": ["Pomme (cidre)", "Poire", "Figue (vinaigrette)"],
+      "vin": ["Muscadet", "Sancerre (vin blanc sec et vif)"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Cidre doux", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Salade de Mâche, Noix et Betterave",
+      "details": "Vinaigrette à l'huile de noix et vinaigre de Xérès pour accentuer la saveur terreuse."
+    }
+  },
+  {
+    "nom": "Mangue",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Tropical",
+    "description": "Fruit juteux et très sucré, au parfum intense et ensoleillé.",
+    "profil_sensoriel": "Sucré / Beurre / Fruité",
+    "info_technique": "Variété : Kent (fondante) ou Alphonso (parfumée).",
+    "associations": {
+      "sale": ["Crevette", "Curry", "Piment (chutney)", "Canard", "Saumon"],
+      "sucre": ["Vanille", "Coco", "Citron vert", "Fruit de la Passion", "Gingembre"],
+      "vin": ["Riesling (Moelleux)", "Gewurztraminer", "Rhum (pas vin, mais accord majeur)"],
+      "mixologie": ["Daiquiri", "Mojito", "Rhum arrangé"],
+      "biere_cidre": ["IPA fruitée", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Chutney de mangue épicé",
+      "details": "Mijoter la mangue avec vinaigre de cidre, sucre, oignon, piment et gingembre."
+    }
+  },
+  {
+    "nom": "Maquereau",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Gras",
+    "description": "Poisson bleu au goût prononcé, chair grasse et peau zébrée.",
+    "profil_sensoriel": "Fort / Gras / Iodé",
+    "info_technique": "Préparation : Mariné au vin blanc ou grillé fort à la flamme.",
+    "associations": {
+      "sale": ["Moutarde", "Vin blanc", "Groseille (acidité)", "Rhubarbe", "Betterave"],
+      "sucre": ["Non courant"],
+      "vin": ["Muscadet", "Riesling (Acidité nécessaire)"],
+      "mixologie": ["Gin (Notes herbacées)"],
+      "biere_cidre": ["Gueuze (Acidité coupe le gras)", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Maquereau brûlé et Rhubarbe",
+      "details": "Filet passé au chalumeau servi avec une compotée de rhubarbe acide."
+    }
+  },
+  {
+    "nom": "Mascarpone",
+    "type": "Produit Laitier",
+    "famille_saveur": "Lactique / Gras",
+    "description": "Fromage triple-crème italien, riche, doux et onctueux.",
+    "profil_sensoriel": "Gras / Lactique / Doux",
+    "info_technique": "Cuisine : Supporte mal la cuisson forte (se sépare), utiliser à froid ou tiède.",
+    "associations": {
+      "sale": ["Gorgonzola (mélange)", "Sauce tomate (adoucir)", "Saumon fumé"],
+      "sucre": ["Café", "Chocolat", "Fraise", "Biscuit cuillère", "Marsala"],
+      "vin": ["Marsala (Spiritueux)", "Vin de dessert"],
+      "mixologie": ["Espresso Martini (Mousse)"],
+      "biere_cidre": ["Stout (Tiramisu Beer)"]
+    },
+    "recette_data": {
+      "titre": "Mousse Mascarpone aux fruits",
+      "details": "Détendu avec un peu de crème liquide et sucre, servi sur des fruits rouges."
+    }
+  },
+  {
+    "nom": "Melon",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Aqueux",
+    "description": "Fruit d'été parfumé et sucré, chair orange (Cantaloup/Charentais).",
+    "profil_sensoriel": "Sucré / Musqué / Aqueux",
+    "info_technique": "Choix : Doit être lourd et le pédoncule doit se décoller.",
+    "associations": {
+      "sale": ["Jambon cru (Prosciutto)", "Porto", "Feta", "Basilic", "Menthe"],
+      "sucre": ["Framboise", "Vanille", "Amande"],
+      "vin": ["Porto (Versé dedans)", "Muscat", "Rosé"],
+      "mixologie": ["Melon Ball", "Spritz au Melon"],
+      "biere_cidre": ["Bière Blanche", "Fruit Ale"]
+    },
+    "recette_data": {
+      "titre": "Melon au Porto",
+      "details": "Couper un chapeau, retirer les graines, verser du Porto et laisser au frigo 2h."
+    }
+  },
+  {
+    "nom": "Menthe",
+    "type": "Herbe",
+    "famille_saveur": "Herbacé / Frais",
+    "description": "Herbe très rafraîchissante, puissante, essentielle en cuisine orientale et mixologie.",
+    "profil_sensoriel": "Frais / Mentholé / Amer léger",
+    "info_technique": "Variété : Menthe Poivrée (forte) ou Menthe Marocaine (thé).",
+    "associations": {
+      "sale": ["Agneau (couscous)", "Concombre (Tzatziki)", "Feta", "Petit pois"],
+      "sucre": ["Chocolat", "Citron", "Fraise", "Thé", "Pastèque"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Mojito", "Mint Julep", "Caipirinha"],
+      "biere_cidre": ["Witbier", "Bière Blanche au citron"]
+    },
+    "recette_data": {
+      "titre": "Mojito Classique",
+      "details": "Proportions : Rhum, Sucre, Menthe, Citron vert (pressé), Eau gazeuse."
+    }
+  },
+  {
+    "nom": "Miel",
+    "type": "Sucrant",
+    "famille_saveur": "Sucré / Floral",
+    "description": "Nectar des fleurs transformé, palette de goût infinie selon la fleur.",
+    "profil_sensoriel": "Sucré / Floral / Boisé (Châtaignier)",
+    "info_technique": "Variété : Acacia (liquide/neutre), Lavande (typé), Châtaignier (amertume).",
+    "associations": {
+      "sale": ["Chèvre", "Canard", "Porc", "Moutarde", "Pizza (Chèvre-Miel)"],
+      "sucre": ["Yaourt", "Citron", "Noix", "Figue", "Thym"],
+      "vin": ["Hydromel (Fermentation de miel)", "Vin Jaune"],
+      "mixologie": ["Bee's Knees (Gin/Miel/Citron)", "Gold Rush"],
+      "biere_cidre": ["Honey Ale", "Tripel"]
+    },
+    "recette_data": {
+      "titre": "Camembert rôti au miel",
+      "details": "Entailler le fromage, verser miel et thym, cuire au four dans sa boîte."
+    }
+  },
+  {
+    "nom": "Morille",
+    "type": "Champignon",
+    "famille_saveur": "Terreux / Fumé",
+    "description": "Champignon sauvage noble, très aromatique, souvent consommé séché.",
+    "profil_sensoriel": "Umami / Fumé / Boisé",
+    "info_technique": "Préparation : Nécessite une réhydratation lente (eau ou lait) et une cuisson complète.",
+    "associations": {
+      "sale": ["Crème fraîche", "Vin Jaune (Jura)", "Volaille (Poularde)", "Asperge", "Veau"],
+      "sucre": ["Non courant"],
+      "vin": ["Vin Jaune (Jura)", "Chardonnay (Boisé)", "Pinot Noir"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Ambrée", "Bière de Garde"]
+    },
+    "recette_data": {
+      "titre": "Volaille de Bresse aux Morilles et Vin Jaune",
+      "details": "Sauce liée à la crème et au Vin Jaune. Servir avec riz ou polenta."
+    }
+  },
+  {
+    "nom": "Moutarde",
+    "type": "Condiment",
+    "famille_saveur": "Piquant / Acide",
+    "description": "Condiment à base de graines de moutarde, de vin ou de vinaigre.",
+    "profil_sensoriel": "Piquant / Acide / Végétal",
+    "info_technique": "Variété : Dijon (forte), À l'ancienne (graines), de Meaux (plus douce).",
+    "associations": {
+      "sale": ["Vinaigrette", "Lapin", "Porc", "Saucisse", "Oeuf (Mayonnaise)"],
+      "sucre": ["Miel", "Érable (Sauce au miel)"],
+      "vin": ["Vins acides (Sancerre) ou Vins sucrés (pour couper le piquant)"],
+      "mixologie": ["Non pertinent (trop puissant)"],
+      "biere_cidre": ["Bière Ambrée", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Sauce Moutarde au Miel",
+      "details": "Mélanger Moutarde forte, miel, huile d'olive et vinaigre de vin. Pour salades ou viandes."
+    }
+  },
+  {
+    "nom": "Mozzarella",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Doux",
+    "description": "Fromage à pâte filée, texture élastique et goût de lait frais.",
+    "profil_sensoriel": "Lactique / Doux / Elastique",
+    "info_technique": "Top : Mozzarella di Bufala Campana (Lait de bufflonne, plus gras/goûteux).",
+    "associations": {
+      "sale": ["Tomate", "Basilic", "Huile d'olive", "Jambon cru", "Pêche (Salade)"],
+      "sucre": ["Melon", "Fraise (Balsamique)"],
+      "vin": ["Vin blanc italien (Pinot Grigio)", "Rosé"],
+      "mixologie": ["Bloody Mary"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Salade Caprese",
+      "details": "L'association tricolore simple : Tomate rouge, Mozza blanche, Basilic vert."
+    }
+  },
+  {
+    "nom": "Mûre",
+    "type": "Fruit",
+    "famille_saveur": "Ronces & Baies",
+    "description": "Baie noire sauvage, goût sucré et acidulé, tache les doigts.",
+    "profil_sensoriel": "Acide / Sucré / Boisé",
+    "info_technique": "Saison : Fin d'été (Août-Septembre).",
+    "associations": {
+      "sale": ["Gibier (Chevreuil)", "Canard", "Chèvre", "Pigeon"],
+      "sucre": ["Pomme", "Chocolat noir", "Amande", "Citron"],
+      "vin": ["Vin rouge tannique", "Cabernet Sauvignon", "Porto"],
+      "mixologie": ["Bramble (Gin)", "Mure Sauvage"],
+      "biere_cidre": ["Stout (notes de fruits noirs)", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Crumble Pomme-Mûre",
+      "details": "La mûre colore la pomme et apporte l'acidité nécessaire au crumble sucré."
+    }
+  },
+  {
+    "nom": "Myrtille",
+    "type": "Fruit",
+    "famille_saveur": "Ronces & Baies",
+    "description": "Petite baie bleue, douce et peu acide, qui colore tout en violet.",
+    "profil_sensoriel": "Doux / Tannique / Floral",
+    "info_technique": "Variété : Sauvage (petite/goûteuse) ou Culture (grosse/blanche dedans).",
+    "associations": {
+      "sale": ["Gibier", "Canard", "Fromage de chèvre", "Salade"],
+      "sucre": ["Citron", "Amande", "Chocolat blanc", "Sirop d'érable", "Yaourt"],
+      "vin": ["Pinot Noir", "Syrah"],
+      "mixologie": ["Gin Tonic", "Mojito Myrtille"],
+      "biere_cidre": ["Sour Ale", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Muffins aux Myrtilles",
+      "details": "L'acidité du citron (zeste) réveille la douceur de la myrtille cuite."
+    }
+  },
+  {
+    "nom": "Navet",
+    "type": "Légume",
+    "famille_saveur": "Sulfuré / Piquant",
+    "description": "Racine ancienne, piquante crue et douce-amère cuite.",
+    "profil_sensoriel": "Piquant / Amer / Doux (glacé)",
+    "info_technique": "Variété : Navet Boule d'Or (plus doux et sucré).",
+    "associations": {
+      "sale": ["Canard", "Moutarde", "Agneau", "Beurre", "Miel"],
+      "sucre": ["Miel", "Orange"],
+      "vin": ["Chenin Blanc", "Pinot Noir"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Ambrée"]
+    },
+    "recette_data": {
+      "titre": "Navets glacés au miel",
+      "details": "Cuire à l'eau et au beurre jusqu'à évaporation totale pour un glaçage brillant."
+    }
+  },
+  {
+    "nom": "Noisette",
+    "type": "Fruit à coque",
+    "famille_saveur": "Torréfié / Boisé",
+    "description": "Le fruit à coque préféré des pâtissiers, saveur pralinée une fois torréfiée.",
+    "profil_sensoriel": "Gras / Boisé / Torréfié",
+    "info_technique": "AOP : Noisette du Piémont (Italie) est la référence absolue.",
+    "associations": {
+      "sale": ["Courge", "Saint-Jacques", "Agneau", "Salade verte", "Champignon"],
+      "sucre": ["Chocolat au lait", "Café", "Caramel", "Poire", "Vanille"],
+      "vin": ["Chardonnay (boisé)", "Porto", "Vin Jaune"],
+      "mixologie": ["Frangelico (Liqueur)", "Espresso Martini"],
+      "biere_cidre": ["Brown Ale", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Beurre Noisette (Sauce)",
+      "details": "Chauffer le beurre jusqu'à ce qu'il prenne une odeur et couleur de noisette."
+    }
+  },
+  {
+    "nom": "Noix",
+    "type": "Fruit à coque",
+    "famille_saveur": "Terreux / Boisé",
+    "description": "Fruit à coque au goût prononcé de bois, de beurre frais et de sous-bois.",
+    "profil_sensoriel": "Gras / Boisé / Amer léger",
+    "info_technique": "Variété : Noix de Grenoble AOP (qualité supérieure).",
+    "associations": {
+      "sale": ["Mâche", "Chèvre", "Betterave", "Céleri-rave", "Fromages Bleus (Roquefort)"],
+      "sucre": ["Miel", "Poire", "Chocolat", "Caramel", "Banane"],
+      "vin": ["Vin Jaune (Jura)", "Porto", "Vin de Noix"],
+      "mixologie": ["Old Fashioned", "Amaretto"],
+      "biere_cidre": ["Stout", "Bière Brune"]
+    },
+    "recette_data": {
+      "titre": "Salade au Roquefort et Noix",
+      "details": "Le goût fort du Roquefort et le boisé de la noix se complètent parfaitement."
+    }
+  },
+  {
+    "nom": "Noix de Muscade",
+    "type": "Épice",
+    "famille_saveur": "Épicé / Boisé",
+    "description": "Amande du fruit du muscadier, très puissante, souvent utilisée dans les plats à base de lait.",
+    "profil_sensoriel": "Chaud / Boisé / Résineux",
+    "info_technique": "Utilisation : Râper très finement au dernier moment (perte d'arôme rapide).",
+    "associations": {
+      "sale": ["Béchamel", "Crème", "Épinard", "Pomme de terre (Gratin)", "Potiron"],
+      "sucre": ["Chocolat au lait", "Lait chaud", "Tarte aux pommes", "Rhum"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Egg Nog", "Punch au Rhum"],
+      "biere_cidre": ["Bière de Noël (épicée)"]
+    },
+    "recette_data": {
+      "titre": "Grattée de muscade sur purée",
+      "details": "Le goût de la muscade fraîche est incomparable sur un gratin ou une purée."
+    }
+  },
+  {
+    "nom": "Oeuf",
+    "type": "Produit Animal",
+    "famille_saveur": "Lactique / Soufré",
+    "description": "Ingrédient central de la cuisine, apportant structure, liaison et protéines.",
+    "profil_sensoriel": "Soufré (cuit) / Lactique / Umami",
+    "info_technique": "Variété : Bio (Code 0) ou Plein air (Code 1).",
+    "associations": {
+      "sale": ["Crème", "Lardons", "Moutarde", "Asperge", "Champignon", "Thon"],
+      "sucre": ["Vanille", "Lait (Flan)", "Chocolat", "Sucre"],
+      "vin": ["Champagne (Mousseline)", "Vin blanc sec"],
+      "mixologie": ["Whisky Sour (Blanc d'œuf)", "Flip (Jaune d'œuf)"],
+      "biere_cidre": ["Non pertinent"]
+    },
+    "recette_data": {
+      "titre": "Oeuf à la coque et mouillettes",
+      "details": "Cuire 3 minutes 30 pour un jaune coulant parfait. Saler après."
+    }
+  },
+  {
+    "nom": "Oignon",
+    "type": "Condiment",
+    "famille_saveur": "Sulfuré / Piquant",
+    "description": "Bulbe polyvalent, piquant cru et très doux (sucré) une fois cuit longuement.",
+    "profil_sensoriel": "Piquant / Sucré (cuit) / Aromatique",
+    "info_technique": "Variété : Jaune (cuisine), Rouge (salade), Blanc (frais).",
+    "associations": {
+      "sale": ["Bœuf", "Thym", "Gruyère (Soupe)", "Lardon", "Vin rouge"],
+      "sucre": ["Vinaigre Balsamique (confit)", "Sucre roux", "Miel"],
+      "vin": ["Bordeaux", "Bourgogne (vin rouge pour mijoter)"],
+      "mixologie": ["Gibson (Garniture)"],
+      "biere_cidre": ["Lager", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Soupe à l'oignon gratinée",
+      "details": "Les oignons doivent caraméliser très longtemps à feu doux avant d'ajouter le bouillon."
+    }
+  },
+  {
+    "nom": "Olive",
+    "type": "Fruit",
+    "famille_saveur": "Salé / Amer",
+    "description": "Fruit du bassin méditerranéen, base de l'huile et condiment de caractère.",
+    "profil_sensoriel": "Salé / Amer / Gras",
+    "info_technique": "Variété : Kalamata (noire, charnue), Picholine (verte, croquante).",
+    "associations": {
+      "sale": ["Tomate", "Anchois", "Feta", "Thon", "Romarin", "Veau"],
+      "sucre": ["Orange", "Miel", "Amande (dans la Tapenade)"],
+      "vin": ["Rosé de Provence", "Bandol Rouge", "Vins du Languedoc"],
+      "mixologie": ["Dirty Martini (Olive/Saumure)"],
+      "biere_cidre": ["Pilsner", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Tapenade Noire",
+      "details": "Olives noires, câpres, ail, anchois et huile d'olive mixés."
+    }
+  },
+  {
+    "nom": "Orange",
+    "type": "Fruit",
+    "famille_saveur": "Agrume",
+    "description": "Agrume sucré à l'arôme puissant et très utilisé en zeste.",
+    "profil_sensoriel": "Sucré / Floral / Acide (zeste)",
+    "info_technique": "Variété : Navel (sucre) ou Sanguine (acidité).",
+    "associations": {
+      "sale": ["Canard", "Fenouil", "Carotte", "Olive", "Foie gras"],
+      "sucre": ["Chocolat noir", "Cannelle", "Amande", "Vanille", "Gingembre"],
+      "vin": ["Grand Marnier (Liqueur)", "Vin de Samos (Grèce)", "Sauternes"],
+      "mixologie": ["Margarita (Triple sec)", "Old Fashioned (Zeste)", "Sidecar"],
+      "biere_cidre": ["Bière Blanche (Écorce)", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Canard à l'orange",
+      "details": "La sauce est un équilibre entre le jus, le zeste (amertume) et le vinaigre de vin."
+    }
+  },
+  {
+    "nom": "Oursin",
+    "type": "Produit de la mer",
+    "famille_saveur": "Marin / Iodé",
+    "description": "Les langues (corail) d'oursin sont une explosion d'iode et de sucre.",
+    "profil_sensoriel": "Iodé / Sucré / Crémeux",
+    "info_technique": "Saison : Hiver. Se mange cru à la petite cuillère.",
+    "associations": {
+      "sale": ["Pain beurré", "Oeuf (Brouillade)", "Crème", "Linguine"],
+      "sucre": ["Non courant"],
+      "vin": ["Vin blanc minéral", "Muscadet", "Champagne"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Stout (Accord iodé)"]
+    },
+    "recette_data": {
+      "titre": "Brouillade d'oursins",
+      "details": "Oeufs brouillés crémeux mélangés hors du feu avec les langues d'oursin."
+    }
+  },
+  {
+    "nom": "Pain (Levain)",
+    "type": "Féculent",
+    "famille_saveur": "Torréfié / Acide",
+    "description": "La base. Un bon pain au levain a une croûte caramélisée et une mie acidulée.",
+    "profil_sensoriel": "Acide / Torréfié / Céréale",
+    "info_technique": "Types : Seigle (Huître), Campagne (Charcuterie), Brioché (Foie gras).",
+    "associations": {
+      "sale": ["Beurre", "Fromage", "Charcuterie", "Tomate", "Huile d'olive"],
+      "sucre": ["Chocolat", "Confiture", "Miel"],
+      "vin": ["Tous"],
+      "mixologie": ["Kvas (Boisson fermentée de pain)"],
+      "biere_cidre": ["Bière (Pain liquide)", "Kvass"]
+    },
+    "recette_data": {
+      "titre": "Bruschetta Classique",
+      "details": "Pain frotté à l'ail, tomates concassées, basilic et huile d'olive."
+    }
+  },
+  {
+    "nom": "Pamplemousse",
+    "type": "Fruit",
+    "famille_saveur": "Agrume / Amer",
+    "description": "Agrume à l'amertume marquée, parfait pour trancher le gras ou le sucre.",
+    "profil_sensoriel": "Amer / Acide / Floral",
+    "info_technique": "Variété : Rose (plus doux) ou Jaune (plus amer).",
+    "associations": {
+      "sale": ["Avocat", "Crabe", "Crevette", "Homard", "Fenouil"],
+      "sucre": ["Miel", "Pistache", "Pavot", "Anis", "Campari"],
+      "vin": ["Sauvignon Blanc", "Rosé de Provence"],
+      "mixologie": ["Paloma (Tequila)", "Gin Tonic", "Greyhound (Vodka)"],
+      "biere_cidre": ["IPA (l'amertume s'accorde)", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Salade Crabe-Avocat-Pamplemousse",
+      "details": "Suprêmes de pamplemousse à vif, chair de crabe et avocat crémeux."
+    }
+  },
+  {
+    "nom": "Panais",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Sucré",
+    "description": "Racine ancienne ressemblant à une carotte blanche, goût sucré et citronné.",
+    "profil_sensoriel": "Sucré / Terreux / Noisette",
+    "info_technique": "Cuisine : Excellent en purée ou rôti au four comme des frites.",
+    "associations": {
+      "sale": ["Noisette", "Gibier", "Bœuf", "Carotte", "Cumin"],
+      "sucre": ["Sirop d'érable", "Chocolat blanc (Gâteau)", "Poire", "Vanille"],
+      "vin": ["Chardonnay (Gras)", "Pinot Gris"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Amber Ale", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Velouté de Panais à l'huile de truffe",
+      "details": "La douceur du panais s'accorde parfaitement avec le parfum terrien de la truffe."
+    }
+  },
+  {
+    "nom": "Paprika",
+    "type": "Épice",
+    "famille_saveur": "Fumé / Poivré",
+    "description": "Poudre de poivron séché. Le hongrois est doux, l'espagnol (Pimenton) est fumé.",
+    "profil_sensoriel": "Fumé / Doux / Poivron",
+    "info_technique": "Cuisine : Ne pas brûler dans l'huile chaude (devient amer).",
+    "associations": {
+      "sale": ["Poulpe", "Pomme de terre", "Poulet", "Oeuf", "Porc"],
+      "sucre": ["Chocolat noir (Fumé - audacieux)"],
+      "vin": ["Rioja", "Vin rouge espagnol"],
+      "mixologie": ["Bloody Mary", "Mezcal"],
+      "biere_cidre": ["Amber Ale", "Rauchbier"]
+    },
+    "recette_data": {
+      "titre": "Poulpe à la Galicienne",
+      "details": "Poulpe cuit tranché, pommes de terre, huile d'olive et beaucoup de paprika fumé."
+    }
+  },
+  {
+    "nom": "Parmesan (Parmigiano)",
+    "type": "Fromage",
+    "famille_saveur": "Umami / Salé",
+    "description": "Le roi des fromages italiens, riche en cristaux de sel et saveur umami.",
+    "profil_sensoriel": "Umami / Salé / Fruité (si vieux)",
+    "info_technique": "Affinage : 24 mois minimum pour le croquant (cristaux de tyrosine).",
+    "associations": {
+      "sale": ["Vinaigre Balsamique", "Asperge", "Carpaccio Bœuf", "Pâtes", "Aubergine"],
+      "sucre": ["Miel", "Figue", "Poire"],
+      "vin": ["Chianti", "Lambrusco", "Champagne (vieux parmesan)"],
+      "mixologie": ["Espresso Martini (Râpé dessus - Tendance)", "Negroni"],
+      "biere_cidre": ["IPA", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Tuiles de Parmesan",
+      "details": "Râper en tas, cuire au four jusqu'à coloration dorée et laisser refroidir."
+    }
+  },
+  {
+    "nom": "Pastèque",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Aqueux",
+    "description": "Le fruit de l'hydratation, très sucré et gorgé d'eau.",
+    "profil_sensoriel": "Sucré / Aqueux / Végétal",
+    "info_technique": "Cuisine : Peut être rôtie (texture de thon) ou grillée.",
+    "associations": {
+      "sale": ["Feta", "Menthe", "Tomate", "Basilic", "Olive noire"],
+      "sucre": ["Citron vert", "Fraise", "Melon"],
+      "vin": ["Rosé très pâle", "Prosecco"],
+      "mixologie": ["Vodka", "Margarita Pastèque", "Gin"],
+      "biere_cidre": ["Bière Blanche", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Salade Pastèque-Feta",
+      "details": "Dés de pastèque, feta émiettée, menthe ciselée et filet d'huile d'olive."
+    }
+  },
+  {
+    "nom": "Patate Douce",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Sucré",
+    "description": "Tubercule orange à la chair fondante et très sucrée.",
+    "profil_sensoriel": "Sucré / Terreux / Farineux",
+    "info_technique": "Cuisson : Rôtie entière avec la peau pour concentrer les sucres.",
+    "associations": {
+      "sale": ["Lardon", "Feta", "Citron vert", "Coriandre", "Piment"],
+      "sucre": ["Cannelle", "Noix de Pécan", "Sirop d'érable"],
+      "vin": ["Chenin Blanc", "Chardonnay"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Pumpkin Ale", "Amber Ale"]
+    },
+    "recette_data": {
+      "titre": "Frites de Patate Douce",
+      "details": "Saupoudrer de maïzena avant cuisson pour le croustillant, servir avec mayo épicée."
+    }
+  },
+  {
+    "nom": "Pêche",
+    "type": "Fruit",
+    "famille_saveur": "Fruité à noyau",
+    "description": "Fruit d'été velouté, à la chair juteuse et parfumée.",
+    "profil_sensoriel": "Sucré / Floral / Acide (peau)",
+    "info_technique": "Variété : Blanche (florale) ou Jaune (rustique).",
+    "associations": {
+      "sale": ["Canard", "Jambon cru", "Mozzarella", "Basilic", "Homard"],
+      "sucre": ["Verveine", "Amande", "Framboise", "Miel", "Vanille"],
+      "vin": ["Moscato d'Asti", "Condrieu", "Champagne"],
+      "mixologie": ["Bellini (Prosecco)", "Ice Tea Pêche (Vodka)"],
+      "biere_cidre": ["Bière Blanche", "Pêcheresse (Lambic)"]
+    },
+    "recette_data": {
+      "titre": "Pêches rôties à la verveine",
+      "details": "Pocher dans un sirop infusé à la verveine fraîche."
+    }
+  },
+  {
+    "nom": "Persil",
+    "type": "Herbe",
+    "famille_saveur": "Herbacé / Amer",
+    "description": "L'herbe la plus commune mais indispensable pour la 'persillade'.",
+    "profil_sensoriel": "Herbacé / Amer / Terreux",
+    "info_technique": "Variété : Plat (plus goûteux) ou Frisé (décoration).",
+    "associations": {
+      "sale": ["Ail", "Champignon", "Beurre (Escargot)", "Moules", "Pomme de terre"],
+      "sucre": ["Non courant"],
+      "vin": ["Sauvignon Blanc"],
+      "mixologie": ["Bloody Mary (Déco)", "Gin Tonic herbeux"],
+      "biere_cidre": ["Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Beurre Maître d'Hôtel",
+      "details": "Beurre pommade, jus de citron, sel, poivre et persil haché."
+    }
+  },
+  {
+    "nom": "Petit Pois",
+    "type": "Légume",
+    "famille_saveur": "Vert / Sucré",
+    "description": "Bille verte printanière, goût sucré et texture éclatante.",
+    "profil_sensoriel": "Sucré / Herbacé / Croquant",
+    "info_technique": "Saison : Printemps. Manger cru ou cuisson très rapide.",
+    "associations": {
+      "sale": ["Menthe", "Lardons", "Carotte", "Oignon blanc", "Pigeon"],
+      "sucre": ["Fraise (Salade audacieuse)", "Chocolat blanc (Purée)"],
+      "vin": ["Pinot Grigio", "Sauvignon Blanc"],
+      "mixologie": ["Gin (infusion)", "Cocktail Garden"],
+      "biere_cidre": ["Bière Blonde légère"]
+    },
+    "recette_data": {
+      "titre": "Petits pois à la Française",
+      "details": "Braisés au beurre avec laitue, oignons nouveaux et lardons."
+    }
+  },
+  {
+    "nom": "Pignon de Pin",
+    "type": "Graine",
+    "famille_saveur": "Résineux / Gras",
+    "description": "Graine du pin parasol, texture tendre et goût de résine délicat.",
+    "profil_sensoriel": "Résineux / Gras / Doux",
+    "info_technique": "Attention : Torréfier légèrement à la poêle, ça brûle très vite !",
+    "associations": {
+      "sale": ["Basilic (Pesto)", "Agneau", "Épinard", "Carpaccio", "Raisin sec"],
+      "sucre": ["Miel", "Tarte aux pignons"],
+      "vin": ["Vin blanc méditerranéen", "Retsina (Grec)"],
+      "mixologie": ["Gin (Notes résineuses)"],
+      "biere_cidre": ["Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Thé à la Menthe et Pignons",
+      "details": "Tradition tunisienne : ajouter des pignons grillés flottant sur le thé chaud."
+    }
+  },
+  {
+    "nom": "Piment",
+    "type": "Épice",
+    "famille_saveur": "Piquant",
+    "description": "Fruit contenant de la capsaïcine, apportant la chaleur.",
+    "profil_sensoriel": "Piquant / Brûlant / Fruité",
+    "info_technique": "Variété : Espelette (Doux), Cayenne (Fort), Habanero (Brûlant).",
+    "associations": {
+      "sale": ["Chocolat (Mole)", "Avocat", "Tomate", "Crevette", "Maïs"],
+      "sucre": ["Chocolat noir", "Mangue", "Ananas", "Citron vert"],
+      "vin": ["Gewurztraminer (sucre apaise le feu)", "Rosé"],
+      "mixologie": ["Margarita Spicy", "Bloody Mary"],
+      "biere_cidre": ["IPA", "Lager mexicaine"]
+    },
+    "recette_data": {
+      "titre": "Chili con Carne",
+      "details": "L'équilibre viande, haricots, tomate et cumin, relevé au piment."
+    }
+  },
+  {
+    "nom": "Pistache",
+    "type": "Fruit à coque",
+    "famille_saveur": "Torréfié / Gras",
+    "description": "Graine verte au goût unique, entre le pin et l'amande.",
+    "profil_sensoriel": "Gras / Résineux / Doux",
+    "info_technique": "Origine : Sicile (Bronte) ou Iran.",
+    "associations": {
+      "sale": ["Mortadelle", "Agneau", "Pâté en croûte", "Asperge"],
+      "sucre": ["Fraise", "Framboise", "Chocolat", "Abricot", "Fleur d'oranger"],
+      "vin": ["Chardonnay (Gras)", "Vin de dessert"],
+      "mixologie": ["Cocktail à la crème de pistache", "Gin"],
+      "biere_cidre": ["Stout", "Brown Ale"]
+    },
+    "recette_data": {
+      "titre": "Financier Pistache-Framboise",
+      "details": "Pâte à la pâte de pistache pure, incrustée de framboises fraîches."
+    }
+  },
+  {
+    "nom": "Poire",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Doux",
+    "description": "Fruit d'automne à la chair granuleuse et fondante.",
+    "profil_sensoriel": "Sucré / Granuleux / Floral",
+    "info_technique": "Variété : Williams (Parfum), Comice (Fondante), Conférence (Croquante).",
+    "associations": {
+      "sale": ["Roquefort (Bleu)", "Noix", "Canard", "Chèvre"],
+      "sucre": ["Chocolat", "Amande (Bourdaloue)", "Vanille", "Caramel"],
+      "vin": ["Poire William (Eau de vie)", "Chenin Blanc (Moelleux)"],
+      "mixologie": ["Cocktail au Gin", "Poire William Sour"],
+      "biere_cidre": ["Cidre de Poire (Poiré)", "Tripel"]
+    },
+    "recette_data": {
+      "titre": "Poire au Roquefort",
+      "details": "Poire crue ou pochée, farcie d'une crème au bleu et noix."
+    }
+  },
+  {
+    "nom": "Poireau",
+    "type": "Légume",
+    "famille_saveur": "Sulfuré / Doux",
+    "description": "Cousin de l'oignon, plus doux et fondant ('l'asperge du pauvre').",
+    "profil_sensoriel": "Oignon doux / Végétal / Fondant",
+    "info_technique": "Parties : Blanc (tendre) et Vert (bouillon).",
+    "associations": {
+      "sale": ["Saint-Jacques", "Pomme de terre (Vichyssoise)", "Vinaigrette", "Saumon", "Crème"],
+      "sucre": ["Non courant"],
+      "vin": ["Chardonnay", "Sauvignon Blanc"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Blonde Ale"]
+    },
+    "recette_data": {
+      "titre": "Fondue de poireaux",
+      "details": "Émincé fin, sué au beurre puis étuvé à la crème et moutarde."
+    }
+  },
+  {
+    "nom": "Poivre",
+    "type": "Épice",
+    "famille_saveur": "Piquant / Aromatique",
+    "description": "L'épice universelle. Noir (puissant), Blanc (animal), Vert (végétal).",
+    "profil_sensoriel": "Piquant / Boisé / Citronné (Sichuan/Timut)",
+    "info_technique": "Conseil : Toujours moudre au dernier moment.",
+    "associations": {
+      "sale": ["Bœuf", "Fraise (Noir)", "Canard (Vert)", "Fromage (Chèvre)"],
+      "sucre": ["Fraise", "Chocolat", "Ananas (Sichuan)"],
+      "vin": ["Syrah (cépage poivré)", "Cabernet Sauvignon"],
+      "mixologie": ["Bloody Mary", "Gin Tonic (Poivre rose)"],
+      "biere_cidre": ["Saison", "Bière épicée"]
+    },
+    "recette_data": {
+      "titre": "Steak au Poivre",
+      "details": "Steak enrobé de poivre concassé (mignonnette), sauce crème et cognac."
+    }
+  },
+  {
+    "nom": "Poivron",
+    "type": "Légume",
+    "famille_saveur": "Végétal / Sucré",
+    "description": "Légume soleil. Vert (amer), Rouge (sucré), Jaune (fruité).",
+    "profil_sensoriel": "Végétal / Sucré / Amer (peau)",
+    "info_technique": "Digestion : Retirer la peau (au four ou économe) pour la digestibilité.",
+    "associations": {
+      "sale": ["Tomate", "Oignon", "Chorizo", "Poulet", "Anchois"],
+      "sucre": ["Framboise (Coulis audacieux)", "Chocolat (Piment)"],
+      "vin": ["Rosé", "Vin rouge léger"],
+      "mixologie": ["Tequila (Poivron grillé)", "Bloody Mary"],
+      "biere_cidre": ["IPA", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Piperade Basque",
+      "details": "Mijoté de poivrons, tomates, oignons, relevé au piment d'Espelette."
+    }
+  },
+  {
+    "nom": "Pomme",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Acide",
+    "description": "Le fruit le plus consommé, spectre infini de l'acide au sucré.",
+    "profil_sensoriel": "Acide / Sucré / Croquant",
+    "info_technique": "Variété : Granny Smith (Acide), Golden (Douce), Reinette (Cuisson).",
+    "associations": {
+      "sale": ["Boudin noir", "Porc", "Camembert", "Chou rouge", "Hareng"],
+      "sucre": ["Cannelle", "Caramel", "Vanille", "Amande", "Mûre"],
+      "vin": ["Cidre", "Calvados", "Chenin Blanc"],
+      "mixologie": ["Appletini", "Calvados Sour", "Whisky"],
+      "biere_cidre": ["Cidre Brut/Doux", "Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Tarte Tatin",
+      "details": "Pommes caramélisées au beurre et sucre, cuites à l'envers sous la pâte."
+    }
+  },
+  {
+    "nom": "Pomme de Terre",
+    "type": "Féculent",
+    "famille_saveur": "Terreux / Neutre",
+    "description": "Tubercule universel, absorbe les graisses et les saveurs.",
+    "profil_sensoriel": "Terreux / Farineux / Beurre",
+    "info_technique": "Variété : Bintje (Frite/Purée), Charlotte (Vapeur/Salade).",
+    "associations": {
+      "sale": ["Truffe", "Fromage (Raclette)", "Lardon", "Romarin", "Ail", "Hareng"],
+      "sucre": ["Chocolat (Gnocchi dessert - rare)", "Vanille (Purée sucrée)"],
+      "vin": ["Vin blanc de Savoie", "Chardonnay"],
+      "mixologie": ["Vodka (base de)", "Non pertinent en cocktail"],
+      "biere_cidre": ["Lager", "Pilsner"]
+    },
+    "recette_data": {
+      "titre": "Gratin Dauphinois",
+      "details": "Frotté à l'ail, crème, lait et muscade. Pas de fromage dans la recette pure !"
+    }
+  },
+  {
+    "nom": "Porc",
+    "type": "Viande",
+    "famille_saveur": "Carné / Gras",
+    "description": "Viande blanche grasse et savoureuse, tout est bon dans le cochon.",
+    "profil_sensoriel": "Gras / Sucré / Umami",
+    "info_technique": "Cuisson : Doit être bien cuit (sauf filet mignon rosé).",
+    "associations": {
+      "sale": ["Pomme", "Moutarde", "Sauge", "Chou", "Pruneau", "Cumin"],
+      "sucre": ["Miel", "Ananas (Aigre-doux)", "Abricot", "Sirop d'érable"],
+      "vin": ["Riesling", "Pinot Noir", "Chenin"],
+      "mixologie": ["Bourbon", "Cocktail fumé"],
+      "biere_cidre": ["Cidre Brut", "Bière Blonde", "Rauchbier"]
+    },
+    "recette_data": {
+      "titre": "Filet mignon aux pruneaux",
+      "details": "Mijoté cocotte avec vin blanc, fond de veau et pruneaux d'Agen."
+    }
+  },
+  {
+    "nom": "Potiron (Courge)",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Sucré",
+    "description": "Légume d'automne à la chair orange douce et onctueuse.",
+    "profil_sensoriel": "Sucré / Noisette / Crémeux",
+    "info_technique": "Variété : Potimarron (goût châtaigne, peau comestible), Butternut (beurré).",
+    "associations": {
+      "sale": ["Châtaigne", "Lardon", "Muscade", "Sauge", "Parmesan"],
+      "sucre": ["Cannelle", "Orange", "Sirop d'érable (Pumpkin Pie)"],
+      "vin": ["Chardonnay (Gras)", "Viognier"],
+      "mixologie": ["Pumpkin Spice Latte (Liqueur)", "Bourbon"],
+      "biere_cidre": ["Pumpkin Ale", "Amber Ale"]
+    },
+    "recette_data": {
+      "titre": "Velouté de Potimarron Châtaigne",
+      "details": "Cuire avec la peau, mixer avec crème et éclats de châtaignes."
+    }
+  },
+  {
+    "nom": "Poulet",
+    "type": "Viande",
+    "famille_saveur": "Carné / Volaille",
+    "description": "Volaille universelle, goût neutre qui prend les arômes de la sauce.",
+    "profil_sensoriel": "Umami / Rôti / Doux",
+    "info_technique": "Label : Privilégier le Label Rouge ou Bresse (plus ferme).",
+    "associations": {
+      "sale": ["Estragon", "Citron", "Ail", "Curry", "Champignon", "Thym"],
+      "sucre": ["Coco", "Abricot", "Ananas"],
+      "vin": ["Chardonnay", "Vin Jaune (Coq au vin jaune)", "Pinot Noir"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blonde", "Cidre"]
+    },
+    "recette_data": {
+      "titre": "Poulet Rôti du Dimanche",
+      "details": "Farci avec ail, thym, citron et beurre sous la peau."
+    }
+  },
+  {
+    "nom": "Poulpe",
+    "type": "Produit de la mer",
+    "famille_saveur": "Marin / Texture",
+    "description": "Céphalopode à la chair ferme mais fondante si bien cuite.",
+    "profil_sensoriel": "Iodé / Doux / Caoutchouteux (si raté)",
+    "info_technique": "Cuisson : Congeler avant cuisson pour casser les fibres et attendrir.",
+    "associations": {
+      "sale": ["Pomme de terre", "Paprika", "Olive noire", "Ail", "Persil"],
+      "sucre": ["Non courant"],
+      "vin": ["Vin blanc minéral", "Albarino (Espagne)"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Lager", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Salade de Poulpe",
+      "details": "Poulpe tiède, céleri branche, olives, citron et bonne huile d'olive."
+    }
+  },
+  {
+    "nom": "Pruneau",
+    "type": "Fruit Sec",
+    "famille_saveur": "Fruité Confis",
+    "description": "Prune séchée, goût concentré, sucré et légèrement fumé.",
+    "profil_sensoriel": "Sucré / Collant / Vieilli",
+    "info_technique": "IGP : Pruneau d'Agen.",
+    "associations": {
+      "sale": ["Lard (Bardé)", "Porc", "Lapin", "Agneau (Tajine)"],
+      "sucre": ["Armagnac", "Vanille", "Cannelle", "Thé"],
+      "vin": ["Cahors (Malbec)", "Armagnac (Spiritueux)"],
+      "mixologie": ["Armagnac", "Cocktail Tiki"],
+      "biere_cidre": ["Barley Wine", "Bière Brune"]
+    },
+    "recette_data": {
+      "titre": "Far Breton aux pruneaux",
+      "details": "Flan dense breton, les pruneaux sont souvent macérés dans le rhum ou thé."
+    }
+  },
+  {
+    "nom": "Quinoa",
+    "type": "Céréale",
+    "famille_saveur": "Terreux / Noisette",
+    "description": "Graine andine, croquante et au goût léger de noisette.",
+    "profil_sensoriel": "Terreux / Croquant / Neutre",
+    "info_technique": "Cuisine : Bien rincer avant cuisson pour retirer la saponine (amère).",
+    "associations": {
+      "sale": ["Avocat", "Grenade", "Feta", "Menthe", "Citron", "Poulet"],
+      "sucre": ["Lait de coco (Porridge)", "Fruits rouges"],
+      "vin": ["Sauvignon Blanc", "Rosé"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Bowl Quinoa-Avocat-Grenade",
+      "details": "Servir tiède ou froid avec une vinaigrette citronnée."
+    }
+  },
+  {
+    "nom": "Radis",
+    "type": "Légume",
+    "famille_saveur": "Piquant / Frais",
+    "description": "Racine croquante, piquante, emblème de l'apéro français.",
+    "profil_sensoriel": "Piquant / Aqueux / Croquant",
+    "info_technique": "Parties : Le fanes (feuilles) se mangent en soupe ou pesto.",
+    "associations": {
+      "sale": ["Beurre", "Sel", "Pain", "Ciboulette", "Fromage frais"],
+      "sucre": ["Non courant"],
+      "vin": ["Vin blanc sec", "Rosé"],
+      "mixologie": ["Bloody Mary (Déco)", "Gin"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Radis au beurre",
+      "details": "Le classique : radis rose, beurre demi-sel de qualité et pain de campagne."
+    }
+  },
+  {
+    "nom": "Raisin",
+    "type": "Fruit",
+    "famille_saveur": "Fruité Sucré",
+    "description": "Fruit de la vigne, base du vin mais excellent en fruit de table.",
+    "profil_sensoriel": "Sucré / Acide / Aqueux",
+    "info_technique": "Variété : Muscat (parfumé), Chasselas (fin), Italia (gros).",
+    "associations": {
+      "sale": ["Caille", "Foie gras", "Fromage (Comté)", "Noix", "Poulet"],
+      "sucre": ["Amande", "Chocolat (Raisin sec)", "Rhum (Raisin sec)"],
+      "vin": ["Marc de raisin", "Sauternes"],
+      "mixologie": ["Cognac", "Pisco Sour", "Cocktail au Raisin"],
+      "biere_cidre": ["Bière aux fruits", "Cidre"]
+    },
+    "recette_data": {
+      "titre": "Cailles aux raisins",
+      "details": "Rôtir les cailles en cocotte avec du raisin blanc frais en fin de cuisson."
+    }
+  },
+  {
+    "nom": "Rhubarbe",
+    "type": "Légume",
+    "famille_saveur": "Acide / Fruité",
+    "description": "Tige très acide, traitée comme un fruit en pâtisserie.",
+    "profil_sensoriel": "Acide / Végétal / Astringent",
+    "info_technique": "Saison : Printemps. Les feuilles sont toxiques (ne pas manger).",
+    "associations": {
+      "sale": ["Porc", "Canard", "Maquereau (gras)", "Foie gras"],
+      "sucre": ["Fraise", "Vanille", "Gingembre", "Orange", "Amande"],
+      "vin": ["Riesling (sucre résiduel)", "Coteaux du Layon"],
+      "mixologie": ["Gin Rhubarbe", "Sirop de Rhubarbe"],
+      "biere_cidre": ["Sour Ale", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Tarte Rhubarbe-Fraise",
+      "details": "L'acidité de la rhubarbe compotée contrebalance le sucre de la fraise."
+    }
+  },
+  {
+    "nom": "Rhum",
+    "type": "Alcool",
+    "famille_saveur": "Torréfié / Épicé",
+    "description": "Eau de vie de canne à sucre. Agricole (frais/végétal) ou Traditionnel (sucre/vanille).",
+    "profil_sensoriel": "Chaud / Vanille / Caramel / Végétal",
+    "info_technique": "Types : Blanc, Ambré, Vieux, Spiced.",
+    "associations": {
+      "sale": ["Porc (laquage)", "Crevette (flambée)", "Ananas rôti"],
+      "sucre": ["Banane", "Chocolat", "Coco", "Vanille", "Café", "Raisin sec"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Mojito", "Daiquiri", "Piña Colada", "Ti Punch"],
+      "biere_cidre": ["Ginger Beer (Dark & Stormy)"]
+    },
+    "recette_data": {
+      "titre": "Baba au Rhum",
+      "details": "Pâte levée imbibée à saturation d'un sirop au rhum ambré."
+    }
+  },
+  {
+    "nom": "Ricotta",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Frais",
+    "description": "Fromage frais italien granuleux et doux, très léger.",
+    "profil_sensoriel": "Lactique / Doux / Neutre",
+    "info_technique": "Cuisine : Idéal pour farcir (Ravioli) ou en dessert (Cannoli).",
+    "associations": {
+      "sale": ["Épinard", "Tomate", "Pâtes", "Basilic", "Citron"],
+      "sucre": ["Miel", "Pistache", "Chocolat (Pépites)", "Fruit confit", "Cannelle"],
+      "vin": ["Pinot Grigio", "Prosecco"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Blanche", "Fruit Beer"]
+    },
+    "recette_data": {
+      "titre": "Cannoli Sicilien",
+      "details": "Tube de pâte frite farci de ricotta sucrée, pépites de choco et orange confite."
+    }
+  },
+  {
+    "nom": "Riz",
+    "type": "Féculent",
+    "famille_saveur": "Neutre / Céréale",
+    "description": "Céréale mondiale. Basmati (parfumé), Arborio (risotto), Gluant (dessert).",
+    "profil_sensoriel": "Neutre / Amylacé / Doux",
+    "info_technique": "Cuisson : Pilaf, Vapeur, Risotto (mouillé petit à petit).",
+    "associations": {
+      "sale": ["Safran", "Poisson", "Curry", "Champignon (Risotto)", "Soja"],
+      "sucre": ["Lait", "Vanille", "Cannelle", "Caramel (Riz au lait)", "Mangue (Sticky Rice)"],
+      "vin": ["Saké", "Vin blanc sec"],
+      "mixologie": ["Horchata (Boisson de riz)"],
+      "biere_cidre": ["Lager", "Bière de Riz"]
+    },
+    "recette_data": {
+      "titre": "Riz au lait crémeux",
+      "details": "Cuisson très lente du riz rond dans le lait sucré et vanillé."
+    }
+  },
+  {
+    "nom": "Romarin",
+    "type": "Herbe",
+    "famille_saveur": "Boisé / Résineux",
+    "description": "Herbe ligneuse méditerranéenne, arôme de pin et de camphre.",
+    "profil_sensoriel": "Boisé / Amer / Puissant",
+    "info_technique": "Utilisation : Infuser dans les sauces ou rôtir avec les viandes.",
+    "associations": {
+      "sale": ["Agneau", "Porc", "Pomme de terre", "Ail", "Focaccia"],
+      "sucre": ["Abricot", "Pêche", "Chocolat (Ganache infusion)", "Citron"],
+      "vin": ["Bandol Rouge", "Vin de Provence"],
+      "mixologie": ["Gin Tonic (Branche)", "Sirop de Romarin"],
+      "biere_cidre": ["Saison", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Carré d'agneau au Romarin",
+      "details": "Piquer la viande de branches de romarin et d'ail avant de rôtir."
+    }
+  },
+  {
+    "nom": "Roquefort",
+    "type": "Fromage",
+    "famille_saveur": "Lactique / Puissant",
+    "description": "Le roi des bleus, lait de brebis, goût puissant et salé.",
+    "profil_sensoriel": "Salé / Métallique / Gras",
+    "info_technique": "AOP : Affiné dans les caves de Roquefort-sur-Soulzon.",
+    "associations": {
+      "sale": ["Noix", "Endive", "Steak (Sauce)", "Betterave"],
+      "sucre": ["Poire", "Figue", "Coing", "Pain d'épices", "Chocolat (Audacieux)"],
+      "vin": ["Sauternes (Accord mythique)", "Banyuls", "Porto"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Barley Wine", "Imperial Stout"]
+    },
+    "recette_data": {
+      "titre": "Tartine Roquefort-Poire",
+      "details": "Pain de noix, tranche de poire fraîche et éclats de roquefort."
+    }
+  },
+  {
+    "nom": "Safran",
+    "type": "Épice",
+    "famille_saveur": "Floral / Métallique",
+    "description": "L'or rouge. Pistil de crocus au goût métallique, mielleux et foin séché.",
+    "profil_sensoriel": "Floral / Amer / Mielleux",
+    "info_technique": "Utilisation : Infuser dans un liquide chaud avant d'incorporer.",
+    "associations": {
+      "sale": ["Riz (Risotto)", "Poisson (Bouillabaisse)", "Poulet", "Moules", "Fenouil"],
+      "sucre": ["Poire", "Riz au lait", "Coing", "Orange"],
+      "vin": ["Gewurztraminer", "Vin Jaune", "Rosé vineux"],
+      "mixologie": ["Gin (Infusé)", "Sirop de Safran"],
+      "biere_cidre": ["Tripel", "Bière Blanche"]
+    },
+    "recette_data": {
+      "titre": "Risotto alla Milanese",
+      "details": "Le safran est ajouté en fin de cuisson pour garder tout son parfum et sa couleur or."
+    }
+  },
+  {
+    "nom": "Sardine",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Gras",
+    "description": "Petit poisson bleu, bon marché, riche en oméga-3 et en goût.",
+    "profil_sensoriel": "Gras / Iodé / Métallique",
+    "info_technique": "Saison : Été (pour la griller fraîche).",
+    "associations": {
+      "sale": ["Citron", "Tomate", "Pain grillé", "Beurre", "Herbes de Provence"],
+      "sucre": ["Non courant"],
+      "vin": ["Muscadet", "Vinho Verde", "Rosé de Provence"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Pilsner", "Lager"]
+    },
+    "recette_data": {
+      "titre": "Sardines grillées au barbecue",
+      "details": "Marinées huile d'olive et gros sel, grillées entières (ne pas vider les petites)."
+    }
+  },
+  {
+    "nom": "Sarrasin (Blé noir)",
+    "type": "Céréale",
+    "famille_saveur": "Terreux / Noisette",
+    "description": "Pseudo-céréale bretonne, goût typique de noisette et de terre.",
+    "profil_sensoriel": "Terreux / Torréfié / Amer",
+    "info_technique": "Forme : Farine (Galette) ou Graines (Kasha grillé).",
+    "associations": {
+      "sale": ["Jambon", "Oeuf", "Fromage (Comté)", "Champignon", "Saumon fumé"],
+      "sucre": ["Chocolat", "Miel", "Pomme", "Caramel au beurre salé"],
+      "vin": ["Cidre (Accord régional)"],
+      "mixologie": ["Whisky breton"],
+      "biere_cidre": ["Cidre Brut", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Galette Complète",
+      "details": "Sarrasin, œuf miroir, jambon et emmental râpé."
+    }
+  },
+  {
+    "nom": "Sauge",
+    "type": "Herbe",
+    "famille_saveur": "Herbacé / Camphré",
+    "description": "Herbe au goût puissant, camphré et légèrement amer.",
+    "profil_sensoriel": "Camphré / Amer / Terreux",
+    "info_technique": "Utilisation : Frit dans le beurre (Beurre de sauge) ou en farce.",
+    "associations": {
+      "sale": ["Porc", "Veau (Saltimbocca)", "Courge", "Haricot blanc", "Beurre"],
+      "sucre": ["Ananas", "Mûre", "Citron"],
+      "vin": ["Vin rouge léger", "Vin blanc italien"],
+      "mixologie": ["Smash Sauge", "Gin Tonic herbacé"],
+      "biere_cidre": ["Saison", "Pale Ale"]
+    },
+    "recette_data": {
+      "titre": "Saltimbocca alla Romana",
+      "details": "Escalope de veau, jambon cru et feuille de sauge, le tout poêlé au vin blanc."
+    }
+  },
+  {
+    "nom": "Saumon",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Gras",
+    "description": "Poisson gras à chair rose, le plus populaire, cru, cuit ou fumé.",
+    "profil_sensoriel": "Gras / Doux / Fondant",
+    "info_technique": "Label : Préférer le Saumon d'Écosse Label Rouge ou Bio.",
+    "associations": {
+      "sale": ["Aneth", "Oseille", "Citron", "Épinard", "Avocat", "Crème"],
+      "sucre": ["Sirop d'érable (Laqué)", "Miel", "Sésame"],
+      "vin": ["Chardonnay (Gras)", "Pinot Noir (si grillé)", "Champagne"],
+      "mixologie": ["Aquavit", "Vodka"],
+      "biere_cidre": ["Bière Blanche", "IPA (tranche le gras)"]
+    },
+    "recette_data": {
+      "titre": "Saumon à l'oseille (Troisgros)",
+      "details": "L'acidité de l'oseille coupe le gras de la sauce à la crème et du saumon."
+    }
+  },
+  {
+    "nom": "Sel (Fleur de)",
+    "type": "Condiment",
+    "famille_saveur": "Salé",
+    "description": "Cristaux croquants récoltés à la surface des marais salants.",
+    "profil_sensoriel": "Salé / Croquant / Minéral",
+    "info_technique": "Utilisation : En finition uniquement (ne pas cuire).",
+    "associations": {
+      "sale": ["Radis", "Viande rouge", "Foie gras", "Tomate", "Poisson"],
+      "sucre": ["Caramel", "Chocolat noir", "Cookie"],
+      "vin": ["Exhausteur de goût universel"],
+      "mixologie": ["Margarita (Rim)", "Gose (Bière salée)"],
+      "biere_cidre": ["Gose"]
+    },
+    "recette_data": {
+      "titre": "Caramel au beurre salé",
+      "details": "Ajouter la fleur de sel hors du feu pour garder le croquant des cristaux."
+    }
+  },
+  {
+    "nom": "Sésame",
+    "type": "Graine",
+    "famille_saveur": "Torréfié / Noisette",
+    "description": "Petite graine riche en huile. Blanc (doux) ou Noir (corsé).",
+    "profil_sensoriel": "Torréfié / Gras / Noisette",
+    "info_technique": "Dérivés : Huile de sésame (finition) et Tahini (pâte).",
+    "associations": {
+      "sale": ["Thon", "Soja", "Poulet", "Aubergine", "Pois chiche"],
+      "sucre": ["Miel", "Chocolat", "Yuzu", "Matcha"],
+      "vin": ["Sherry", "Vin Jaune"],
+      "mixologie": ["Fat wash (Bourbon)", "Sirop de sésame"],
+      "biere_cidre": ["Brown Ale", "Stout"]
+    },
+    "recette_data": {
+      "titre": "Thon en croûte de sésame",
+      "details": "Paner le pavé de thon dans un mélange sésame blanc/noir avant de saisir."
+    }
+  },
+  {
+    "nom": "Sirop d'Érable",
+    "type": "Sucrant",
+    "famille_saveur": "Torréfié / Boisé",
+    "description": "Sève d'érable réduite, emblème du Canada, goût boisé unique.",
+    "profil_sensoriel": "Sucré / Caramel / Boisé",
+    "info_technique": "Qualité : Préférer le Grade A (Doré) pour le goût fin.",
+    "associations": {
+      "sale": ["Bacon", "Saumon", "Porc", "Poulet (Frit)", "Courge"],
+      "sucre": ["Pecan", "Pomme", "Yaourt", "Myrtille", "Crêpe"],
+      "vin": ["Vin de glace", "Whisky"],
+      "mixologie": ["Whisky Sour (Maple)", "Old Fashioned"],
+      "biere_cidre": ["Stout", "Brown Ale"]
+    },
+    "recette_data": {
+      "titre": "Pancakes Bacon-Érable",
+      "details": "Le sel du bacon croustillant contraste avec le sucre du sirop."
+    }
+  },
+  {
+    "nom": "Soja (Sauce)",
+    "type": "Condiment",
+    "famille_saveur": "Salé / Umami",
+    "description": "Fermentation de soja et blé, l'essence du goût Umami.",
+    "profil_sensoriel": "Salé / Umami / Fermenté",
+    "info_technique": "Variété : Claire (salée) ou Foncée (moins salée, plus riche).",
+    "associations": {
+      "sale": ["Sushi", "Riz", "Poulet", "Saumon", "Gingembre"],
+      "sucre": ["Caramel (Salé/Umami)", "Chocolat (Audacieux)"],
+      "vin": ["Sherry", "Vin Jaune"],
+      "mixologie": ["Bloody Mary (Twist asiatique)"],
+      "biere_cidre": ["Lager asiatique", "Rice Lager"]
+    },
+    "recette_data": {
+      "titre": "Poulet Teriyaki",
+      "details": "Marinade et laquage à base de sauce soja, mirin, saké et sucre."
+    }
+  },
+  {
+    "nom": "Thé (Matcha/Noir)",
+    "type": "Ingredient",
+    "famille_saveur": "Amer / Tannique",
+    "description": "Feuilles infusées ou poudre (Matcha), apportant amertume et tanins.",
+    "profil_sensoriel": "Amer / Herbacé / Fumé (Lapsang)",
+    "info_technique": "Utilisation : Infusion dans la crème (ganache) ou poudre dans les cakes.",
+    "associations": {
+      "sale": ["Canard (Fumé)", "Saumon (Fumé)", "Agneau"],
+      "sucre": ["Chocolat blanc (Matcha)", "Framboise", "Citron", "Pêche"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Tea Punch", "Gin (Earl Grey)"],
+      "biere_cidre": ["Pale Ale au thé"]
+    },
+    "recette_data": {
+      "titre": "Cake au Thé Matcha et Framboise",
+      "details": "L'amertume verte du matcha équilibre l'acidité fruitée de la framboise."
+    }
+  },
+  {
+    "nom": "Thon",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Carné",
+    "description": "Poisson à chair rouge ferme, souvent comparé au bœuf de la mer.",
+    "profil_sensoriel": "Ferme / Sanguin / Métallique",
+    "info_technique": "Cuisson : Mi-cuit ou cru (Tataki/Sashimi). Trop cuit = sec.",
+    "associations": {
+      "sale": ["Sésame", "Soja", "Avocat", "Tomate", "Olive", "Oeuf (Dur)"],
+      "sucre": ["Agrumes", "Mangue"],
+      "vin": ["Pinot Noir (Rouge léger)", "Rosé vineux"],
+      "mixologie": ["Gin (Japonais)"],
+      "biere_cidre": ["Lager", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Tataki de Thon",
+      "details": "Saisi 30 sec par face, enrobé de sésame, cœur cru."
+    }
+  },
+  {
+    "nom": "Thym",
+    "type": "Herbe",
+    "famille_saveur": "Herbacé / Boisé",
+    "description": "Herbe de Provence rustique, résiste aux longues cuissons.",
+    "profil_sensoriel": "Boisé / Citronné / Terreux",
+    "info_technique": "Variété : Thym Citron (très parfumé pour les desserts/poissons).",
+    "associations": {
+      "sale": ["Agneau", "Tomate", "Poulet", "Chèvre", "Courgette"],
+      "sucre": ["Abricot", "Pêche", "Miel", "Citron"],
+      "vin": ["Vin du Sud (Languedoc/Provence)"],
+      "mixologie": ["Gin Tonic", "Sirop de thym"],
+      "biere_cidre": ["Saison", "Blanche"]
+    },
+    "recette_data": {
+      "titre": "Abricots rôtis au thym",
+      "details": "Rôtir au four avec miel et branches de thym frais."
+    }
+  },
+  {
+    "nom": "Tomate",
+    "type": "Fruit",
+    "famille_saveur": "Umami / Acide",
+    "description": "Le fruit-légume le plus populaire. Umami naturel élevé.",
+    "profil_sensoriel": "Acide / Sucré / Umami",
+    "info_technique": "Saison : Été uniquement pour le vrai goût.",
+    "associations": {
+      "sale": ["Basilic", "Mozzarella", "Ail", "Huile d'olive", "Boeuf", "Aubergine"],
+      "sucre": ["Fraise (Salade)", "Vanille", "Pastèque"],
+      "vin": ["Rosé", "Chianti", "Sangiovese"],
+      "mixologie": ["Bloody Mary", "Michelada"],
+      "biere_cidre": ["Pilsner", "Gose (Tomate/Sel)"]
+    },
+    "recette_data": {
+      "titre": "Salade Caprese",
+      "details": "Tomate Cœur de bœuf, Mozzarella di Bufala, Basilic frais, Huile d'olive. Rien d'autre."
+    }
+  },
+  {
+    "nom": "Topinambour",
+    "type": "Légume",
+    "famille_saveur": "Terreux / Artichaut",
+    "description": "Tubercule oublié au goût prononcé d'artichaut.",
+    "profil_sensoriel": "Terreux / Artichaut / Sucré",
+    "info_technique": "Digestion : Cuire avec du bicarbonate ou de la sauge pour faciliter la digestion.",
+    "associations": {
+      "sale": ["Truffe", "Noisette", "Foie gras", "Saint-Jacques", "Lardon"],
+      "sucre": ["Vanille (Purée)", "Café (Accord de chef)", "Chocolat"],
+      "vin": ["Chardonnay", "Champagne"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Ambrée"]
+    },
+    "recette_data": {
+      "titre": "Crème de Topinambour au Foie Gras",
+      "details": "Velouté onctueux servi avec des copeaux de foie gras et huile de noisette."
+    }
+  },
+  {
+    "nom": "Truffe (Noire)",
+    "type": "Champignon",
+    "famille_saveur": "Terreux / Musqué",
+    "description": "Le diamant noir. Parfum enivrant de sous-bois et de gaz.",
+    "profil_sensoriel": "Terreux / Sulfuré / Musqué",
+    "info_technique": "Variété : Tuber Melanosporum (Hiver). L'huile de truffe est souvent synthétique.",
+    "associations": {
+      "sale": ["Oeuf", "Pâtes", "Pomme de terre", "Coquille Saint-Jacques", "Brie"],
+      "sucre": ["Vanille (Glace - très audacieux)", "Chocolat blanc"],
+      "vin": ["Pomerol (Vieux)", "Châteauneuf-du-Pape", "Champagne Vineux"],
+      "mixologie": ["Vodka Truffe", "Martini"],
+      "biere_cidre": ["Bière Brune", "Barley Wine"]
+    },
+    "recette_data": {
+      "titre": "Brouillade aux truffes",
+      "details": "Oeufs brouillés très lentement au bain-marie avec de la truffe râpée."
+    }
+  },
+  {
+    "nom": "Truite",
+    "type": "Poisson",
+    "famille_saveur": "Marin / Doux",
+    "description": "Poisson de rivière, cousin du saumon mais moins gras et plus terreux.",
+    "profil_sensoriel": "Doux / Terreux / Fondant",
+    "info_technique": "Variété : Truite Fario (Rivière) ou Arc-en-ciel (Élevage).",
+    "associations": {
+      "sale": ["Amande", "Citron", "Lardons", "Champignon", "Crème"],
+      "sucre": ["Amande (Truite aux amandes)"],
+      "vin": ["Riesling", "Vin Jaune (Truite au Bleu)"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blanche", "Saison"]
+    },
+    "recette_data": {
+      "titre": "Truite aux Amandes",
+      "details": "Poêlée au beurre, servie recouverte d'amandes effilées dorées."
+    }
+  },
+  {
+    "nom": "Vanille",
+    "type": "Épice",
+    "famille_saveur": "Doux / Épicé",
+    "description": "Gousse d'orchidée, l'épice la plus douce et universelle.",
+    "profil_sensoriel": "Doux / Floral / Boisé",
+    "info_technique": "Origine : Bourbon (Madagascar), Tahiti (Floral), Mexique (Épicé).",
+    "associations": {
+      "sale": ["Homard", "Saint-Jacques", "Canard", "Purée de pomme de terre"],
+      "sucre": ["Tout (Chocolat, Fruits, Crème)"],
+      "vin": ["Sauternes", "Vieux Rhum"],
+      "mixologie": ["Porn Star Martini", "Spiced Rum"],
+      "biere_cidre": ["Stout Vanille", "Cream Ale"]
+    },
+    "recette_data": {
+      "titre": "Homard à la Vanille",
+      "details": "Beurre monté à la vanille servi sur un homard rôti. Accord signature des grands chefs."
+    }
+  },
+  {
+    "nom": "Veau",
+    "type": "Viande",
+    "famille_saveur": "Carné / Lactique",
+    "description": "Viande jeune, chair rose pâle, tendre et peu grasse.",
+    "profil_sensoriel": "Doux / Lactique / Tendre",
+    "info_technique": "Cuisson : Rosé ou à point, jamais saignant (devient dur).",
+    "associations": {
+      "sale": ["Crème", "Champignon", "Citron", "Sauge", "Thon (Vitello Tonnato)"],
+      "sucre": ["Vanille (Ris de veau)", "Carotte (glacée)"],
+      "vin": ["Pinot Noir", "Chardonnay (si sauce crème)"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Bière Blanche", "Blonde Ale"]
+    },
+    "recette_data": {
+      "titre": "Blanquette de Veau",
+      "details": "Mijoté sans coloration, sauce liée aux jaunes d'œufs et crème."
+    }
+  },
+  {
+    "nom": "Verveine",
+    "type": "Herbe",
+    "famille_saveur": "Herbacé / Citronné",
+    "description": "Herbe très parfumée, citronnée et douce, star des infusions et desserts.",
+    "profil_sensoriel": "Citronné / Floral / Doux",
+    "info_technique": "Utilisation : Infusion (Lait/Crème) ou sirop.",
+    "associations": {
+      "sale": ["Poisson (Nage)", "Volaille (Pochée)", "Courgette"],
+      "sucre": ["Pêche", "Framboise", "Abricot", "Chocolat blanc", "Fraise"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Gin Tonic (Infusé)", "Liqueur de Verveine"],
+      "biere_cidre": ["Bière Blanche", "Cidre"]
+    },
+    "recette_data": {
+      "titre": "Pêches pochées à la Verveine",
+      "details": "Sirop léger infusé à la verveine fraîche, servir glacé."
+    }
+  },
+  {
+    "nom": "Vinaigre Balsamique",
+    "type": "Condiment",
+    "famille_saveur": "Acide / Sucré",
+    "description": "Vinaigre de moût de raisin vieilli en fût. Le vrai est sirupeux.",
+    "profil_sensoriel": "Acide / Sucré / Boisé",
+    "info_technique": "AOP : Balsamique de Modène. Le traditionnel a +12 ans d'âge.",
+    "associations": {
+      "sale": ["Fraise", "Parmesan", "Tomate", "Roquette", "Foie gras"],
+      "sucre": ["Fraise", "Glace Vanille", "Figue"],
+      "vin": ["Lambrusco", "Vin rouge italien"],
+      "mixologie": ["Strawberry Balsamic Smash"],
+      "biere_cidre": ["Flanders Red Ale (Bière acide)"]
+    },
+    "recette_data": {
+      "titre": "Fraises au Vinaigre Balsamique",
+      "details": "Mariner les fraises avec sucre et bon balsamique pour exhaler le parfum."
+    }
+  },
+  {
+    "nom": "Vinaigre de Xérès",
+    "type": "Condiment",
+    "famille_saveur": "Acide / Boisé",
+    "description": "Vinaigre espagnol vieilli en fût, goût de noix et de bois.",
+    "profil_sensoriel": "Acide / Noisette / Boisé",
+    "info_technique": "AOP : Vinagre de Jerez. Indispensable pour le Gazpacho.",
+    "associations": {
+      "sale": ["Tomate (Gazpacho)", "Huile de noisette", "Salade", "Lentille", "Foie de veau"],
+      "sucre": ["Fraise", "Caramel"],
+      "vin": ["Sherry (Xérès)"],
+      "mixologie": ["Bloody Mary"],
+      "biere_cidre": ["Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Vinaigrette à l'huile de noisette",
+      "details": "Mélange huile de noisette et vinaigre de Xérès pour les salades d'automne."
+    }
+  },
+  {
+    "nom": "Vodka",
+    "type": "Alcool",
+    "famille_saveur": "Neutre / Céréale",
+    "description": "Spiritueux neutre (blé, seigle, pomme de terre), véhicule les autres saveurs.",
+    "profil_sensoriel": "Brûlant / Neutre / Céréale",
+    "info_technique": "Service : Doit être servie glacée (sortant du congélateur).",
+    "associations": {
+      "sale": ["Caviar", "Saumon fumé", "Cornichon (Malossol)", "Hareng"],
+      "sucre": ["Citron", "Café (Liqueur)", "Fruit de la passion"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Moscow Mule", "Cosmopolitan", "Espresso Martini"],
+      "biere_cidre": ["Ginger Beer"]
+    },
+    "recette_data": {
+      "titre": "Penne à la Vodka",
+      "details": "Sauce tomate crémeuse déglacée à la vodka pour relever le goût."
+    }
+  },
+  {
+    "nom": "Wakamé",
+    "type": "Algue",
+    "famille_saveur": "Marin / Umami",
+    "description": "Algue brune japonaise, texture glissante et goût iodé doux.",
+    "profil_sensoriel": "Iodé / Umami / Végétal",
+    "info_technique": "Forme : Souvent vendue séchée (à réhydrater) ou en salade (Goma Wakame).",
+    "associations": {
+      "sale": ["Sésame", "Concombre", "Tofu", "Miso", "Saumon"],
+      "sucre": ["Non courant"],
+      "vin": ["Saké", "Muscadet"],
+      "mixologie": ["Non pertinent"],
+      "biere_cidre": ["Lager", "Gose"]
+    },
+    "recette_data": {
+      "titre": "Salade d'algues au sésame",
+      "details": "Wakamé réhydraté, huile de sésame, vinaigre de riz, soja et graines de sésame."
+    }
+  },
+  {
+    "nom": "Wasabi",
+    "type": "Condiment",
+    "famille_saveur": "Piquant / Nasal",
+    "description": "Racine japonaise râpée, piquant qui monte au nez (sinus).",
+    "profil_sensoriel": "Piquant / Herbacé / Frais",
+    "info_technique": "Réalité : Souvent du raifort coloré en vert. Le vrai est très cher.",
+    "associations": {
+      "sale": ["Sushi", "Boeuf", "Avocat", "Saumon", "Petit pois"],
+      "sucre": ["Chocolat blanc (Ganache)", "Ananas"],
+      "vin": ["Riesling (sucre compense le feu)"],
+      "mixologie": ["Bloody Mary", "Martini Wasabi"],
+      "biere_cidre": ["Lager japonaise", "IPA"]
+    },
+    "recette_data": {
+      "titre": "Purée de petits pois au Wasabi",
+      "details": "Accompagnement vif pour un poisson ou un steak de thon."
+    }
+  },
+  {
+    "nom": "Whisky",
+    "type": "Alcool",
+    "famille_saveur": "Torréfié / Boisé",
+    "description": "Eau de vie de grain vieillie en fût. Bourbon, Scotch, Rye.",
+    "profil_sensoriel": "Boisé / Vanille / Fumé (Tourbé)",
+    "info_technique": "Dégustation : Quelques gouttes d'eau ouvrent les arômes.",
+    "associations": {
+      "sale": ["Viande fumée (BBQ)", "Saumon (Gravlax)", "Roquefort"],
+      "sucre": ["Chocolat noir", "Caramel", "Café", "Orange"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Old Fashioned", "Manhattan", "Whisky Sour"],
+      "biere_cidre": ["Stout (Barrel Aged)", "Scottish Ale"]
+    },
+    "recette_data": {
+      "titre": "Saumon Gravlax au Whisky",
+      "details": "Marinade sel/sucre parfumée au Whisky tourbé et baies roses."
+    }
+  },
+  {
+    "nom": "Xérès (Vin)",
+    "type": "Alcool",
+    "famille_saveur": "Oxydatif / Noisette",
+    "description": "Vin fortifié espagnol (Sherry). Fino (sec/salé) ou Pedro Ximenez (sirop noir).",
+    "profil_sensoriel": "Noisette / Oxydé / Sec ou Très sucré",
+    "info_technique": "Variété : Fino (Apéro), Oloroso (Plat), PX (Dessert).",
+    "associations": {
+      "sale": ["Jambon Ibérique", "Olive", "Tapas", "Consommé", "Champignon"],
+      "sucre": ["Chocolat (PX)", "Glace Vanille (PX)", "Fruits secs"],
+      "vin": ["C'est un vin"],
+      "mixologie": ["Sherry Cobbler", "Bamboo Cocktail"],
+      "biere_cidre": ["Barley Wine"]
+    },
+    "recette_data": {
+      "titre": "Glace Vanille au Pedro Ximenez",
+      "details": "Verser un shot de Xérès PX (très épais et sucré) sur une boule de glace."
+    }
+  },
+  {
+    "nom": "Yaourt",
+    "type": "Produit Laitier",
+    "famille_saveur": "Lactique / Acide",
+    "description": "Lait fermenté, apporte fraîcheur et acidité onctueuse.",
+    "profil_sensoriel": "Acide / Crémeux / Frais",
+    "info_technique": "Type : Grec (gras/épais) ou Bulgare (acide).",
+    "associations": {
+      "sale": ["Concombre", "Ail", "Curry (Marinade)", "Agneau", "Menthe"],
+      "sucre": ["Miel", "Fruits rouges", "Granola", "Figue"],
+      "vin": ["Non pertinent"],
+      "mixologie": ["Lassi (Cocktail yaourt)", "Gin Fizz (texture)"],
+      "biere_cidre": ["Sour Ale"]
+    },
+    "recette_data": {
+      "titre": "Sauce Yaourt aux herbes",
+      "details": "Yaourt grec, jus de citron, aneth, menthe, sel et poivre."
+    }
+  },
+  {
+    "nom": "Zaatar",
+    "type": "Épice",
+    "famille_saveur": "Herbacé / Acide",
+    "description": "Mélange levantin : Thym sauvage, Sumac (acide), Sésame.",
+    "profil_sensoriel": "Herbacé / Citronné (Sumac) / Torréfié",
+    "info_technique": "Utilisation : Tremper le pain dans l'huile d'olive puis le zaatar.",
+    "associations": {
+      "sale": ["Labneh (Yaourt)", "Pain pita", "Concombre", "Tomate", "Agneau", "Poulet"],
+      "sucre": ["Non courant"],
+      "vin": ["Rosé", "Vin blanc sec"],
+      "mixologie": ["Gin Tonic (Bordure de verre)"],
+      "biere_cidre": ["IPA", "Blanche"]
+    },
+    "recette_data": {
+      "titre": "Man'ouché au Zaatar",
+      "details": "Galette libanaise enduite d'huile d'olive et de zaatar, cuite au four."
+    }
+  }
+]
